@@ -2,6 +2,35 @@
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile.css);
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice.css);
 
+.title-qAcLxz, .titleCall-3X0yGQ {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 46px;
+    padding: 0 15px 0px 12px;
+}
+
+.search-bar input {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    /* -webkit-box-sizing: border-box; */
+    background: #131313;
+    border: none;
+    box-sizing: none;
+    color: #fff;
+    flex: 1;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    height: 26px;
+    min-width: 50px!important;
+    outline: none;
+    padding: 5px 7px;
+    resize: none;
+}
+
 /* Jumbled Fixes */
 
 .theme-dark .title-qAcLxz {
