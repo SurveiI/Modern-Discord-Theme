@@ -7,6 +7,31 @@
     /* height: calc(100% - 119px) !important; */
 }
 
+.guilds-add {
+    font-size: 30px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    margin: -70px;
+    background: var(--main-color) !important;
+    transition: .2s all linear !important;
+    transform: scale(1);
+    width: 20px!Important;
+    box-shadow: 0 0px 6px 0px var(--hover-color);
+}
+
+.guilds-wrapper .guilds-add {
+    border: 0px solid transparent;
+    position: fixed !important;
+    bottom: 72px;
+    width: 141px !important;
+    border-radius: 0px;
+    left: 0px;
+    height: 3px !important;
+    line-height: 1px;
+    font-size: 0px !important;
+    transition: .1s all linear;
+}
+
 .theme-dark .title-qAcLxz {
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
     background: rgba(0, 0, 0, 0.76)!important;
