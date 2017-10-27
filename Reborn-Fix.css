@@ -1,6 +1,394 @@
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile.css);
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice.css);
 
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: transparent;
+    border-right: 0px solid transparent !important;
+    width: calc(100% - -58px);
+}
+
+.theme-dark .container-RYiLUQ, .theme-dark .layer, .theme-dark .layers, .theme-dark .content, .theme-dark .messages-wrapper .message-group, .theme-dark #friends, .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"] {
+    background: rgba(0, 0, 0, 0.42) !important;
+}
+
+
+
+.channels-3g2vYe {
+    -ms-flex-negative: 0;
+    background-color: transparent;
+    flex-shrink: 0;
+    width: 240px;
+}
+
+.theme-dark .channels-wrap, .theme-dark .title-wrap, .theme-dark .channel-members, .theme-dark .content .flex-spacer, .theme-dark .friends-table, .theme-dark .friends-header {
+    background: transparent!important;
+}
+
+#friends .friends-table .friends-table-body::after {
+    content: "";
+    background: transparent!Important;
+    width: 1400px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 2px solid #212121;
+}
+
+.theme-dark .headerBar-cxbhPD {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: transparent!important;
+    border-bottom: 2px var(--main-color) solid !important;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    margin-top: -2px;
+}
+
+.container-iksrDt .avatar-small {
+    border-radius: 0px;
+    left: 82px;
+}
+
+.accountDetails-15i-_e {
+    margin-left: 85px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    margin: 0px -13px;
+    background: transparent!important;
+    border-radius: 0px;
+    line-height: 19px;
+    width: 75px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    transition: background .2s linear, color .2s linear;
+    cursor: pointer;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    margin: 0px -13px;
+    background: transparent!important;
+    border-radius: 0px;
+    color: white!Important;
+    line-height: 19px;
+    width: 75px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    transition: background .2s linear, color .2s linear;
+    cursor: pointer;
+}
+
+.channel-members::after {
+    content: var(--theme-name)" v"var(--version-content)!important;
+    font-family: "Satisfy";
+    text-align: center;
+    background: transparent;
+    color: #2e2e30;
+    font-weight: 700;
+    font-size: 250%;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    line-height: 75px;
+    border-top: 2px solid #212121;
+    left: -2px;
+    z-index: 1;
+    border-radius: 0px !important;
+    padding-right: 30px;
+}
+
+.container-2OU7Cz {
+    background-image: url(https://imgur.com/RG03PyX.png)!important;
+    background-size: cover;
+}
+
+
+.theme-dark .channels-wrap, .theme-dark .title-wrap, .theme-dark .channel-members, .theme-dark .content .flex-spacer, .theme-dark .friends-table, .theme-dark .friends-header {
+    background: rgba(0, 0, 0, 0.42)!important;
+}
+
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: rgba(0, 0, 0, 0.24);
+    border-right: 0px solid transparent !important;
+    width: calc(100% - -58px);
+}
+
+.theme-dark .inner-3if5cm {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.theme-dark .chat form {
+    background: rgba(0, 0, 0, 0.24);
+    border-left: 0px solid transparent !important;
+    border-right: 0px solid transparent !important;
+}
+
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: transparent;
+}
+
+.chat .messages-wrapper .scroller-wrap {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.57);
+}
+
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0.56);
+    border-bottom: 2px solid var(--main-color);
+    margin-top: -2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.links, .chat, .typing, .private-channels, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection {
+    background: rgba(0, 0, 0, 0.56) !important;
+}
+
+.scroller-fzNley {
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.private-channels .channel .channel-name {
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    color: #eeeef3;
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.8;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.theme-dark .container-iksrDt {
+    height: 105px;
+    background: rgba(0, 0, 0, 0.24);
+    border-right: 0px solid transparent !important;
+    width: calc(100% - -58px);
+}
+
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: transparent;
+    border-right: 0px solid transparent !important;
+    width: calc(100% - -58px);
+}
+
+.channels-3g2vYe {
+    -ms-flex-negative: 0;
+    background-color: transparent;
+    flex-shrink: 0;
+    width: 240px;
+}
+
+.theme-dark .channels-wrap, .theme-dark .title-wrap, .theme-dark .channel-members, .theme-dark .content .flex-spacer, .theme-dark .friends-table, .theme-dark .friends-header {
+    background: transparent!important;
+}
+
+#friends .friends-table .friends-table-body::after {
+    content: "";
+    background: transparent!Important;
+    width: 1400px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 2px solid #212121;
+}
+
+.theme-dark .headerBar-cxbhPD {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: transparent!important;
+    border-bottom: 2px var(--main-color) solid !important;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    margin-top: -2px;
+}
+
+.container-iksrDt .avatar-small {
+    border-radius: 0px;
+    left: 82px;
+}
+
+.accountDetails-15i-_e {
+    margin-left: 85px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    margin: 0px -13px;
+    background: transparent!important;
+    border-radius: 0px;
+    line-height: 19px;
+    width: 75px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    transition: background .2s linear, color .2s linear;
+    cursor: pointer;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    margin: 0px -13px;
+    background: transparent!important;
+    border-radius: 0px;
+    color: white!Important;
+    line-height: 19px;
+    width: 75px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    transition: background .2s linear, color .2s linear;
+    cursor: pointer;
+}
+
+.channel-members::after {
+    content: var(--theme-name)" v"var(--version-content)!important;
+    font-family: "Satisfy";
+    text-align: center;
+    background: transparent;
+    color: #2e2e30;
+    font-weight: 700;
+    font-size: 250%;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    line-height: 75px;
+    border-top: 2px solid #212121;
+    left: -2px;
+    z-index: 1;
+    border-radius: 0px !important;
+    padding-right: 30px;
+}
+
+.container-2OU7Cz {
+    background-image: url(https://imgur.com/RG03PyX.png)!important;
+    background-size: cover;
+}
+
+
+.theme-dark .channels-wrap, .theme-dark .title-wrap, .theme-dark .channel-members, .theme-dark .content .flex-spacer, .theme-dark .friends-table, .theme-dark .friends-header {
+    background: rgba(0, 0, 0, 0.42)!important;
+}
+
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: rgba(0, 0, 0, 0.24);
+    border-right: 0px solid transparent !important;
+    width: calc(100% - -58px);
+}
+
+.theme-dark .inner-3if5cm {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.theme-dark .chat form {
+    background: rgba(0, 0, 0, 0);
+    border-left: 0px solid transparent !important;
+    border-right: 0px solid transparent !important;
+}
+
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: transparent;
+}
+
+.chat .messages-wrapper .scroller-wrap {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.57);
+}
+
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0.56);
+    border-bottom: 2px solid var(--main-color);
+    margin-top: -2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.links, .chat, .typing, .private-channels, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection {
+    background: rgba(0, 0, 0, 0) !important !important;
+}
+
+.scroller-fzNley {
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.private-channels .channel .channel-name {
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    color: #eeeef3;
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.8;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.theme-dark .container-iksrDt {
+    height: 105px;
+    background: rgba(0, 0, 0, 0.24);
+    border-right: 0px solid transparent !important;
+    width: calc(100% - -58px);
+}
+
+.theme-dark .guilds-wrapper {
+    margin-top: 48px !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    height: inherit!important;
+}
+
+.scroller.guilds {
+    /* height: calc(100% - 140px); */
+}
+
+.guilds-wrapper .guilds {
+    padding: 0px 0px 0px 6px!important;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #02a6e5!important;
+}
+
+.guilds-wrapper {
+    -ms-flex-direction: column;
+    -ms-flex-negative: 0;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: #202225;
+    contain: layout;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    /* overflow-y: scroll; */
+    position: relative;
+    width: 70px;
+}
+
+.theme-dark .guilds-wrapper {
+    margin-top: 48px !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    /* height: calc(100% - 119px) !important; */
+}
+
+
 /* Fix Discord Scroll */
 
 .scroller-wrap .scroller::-webkit-scrollbar {
