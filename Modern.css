@@ -2,6 +2,35 @@
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile.css);
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice.css);
 
+.container-2OU7Cz {
+    background-color: #121213;
+}
+
+.container-iksrDt .avatar-small {
+    -ms-flex-negative: 0;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0 10px 0 69px;
+}
+
+.guilds-wrapper .guilds {
+    padding: 48px 0px 171px 14px;
+    z-index: 9000;
+}
+
+.guilds-wrapper .guilds-add {
+    border: 0px solid transparent;
+    position: fixed !important;
+    bottom: -38px!important;
+    width: 74px !important;
+    border-radius: 0px;
+    left: 0px;
+    height: 3px !important;
+    line-height: 1px;
+    font-size: 0px !important;
+    transition: .1s all linear;
+}
+
 .title-qAcLxz, .titleCall-3X0yGQ {
     -ms-flex-align: center;
     -webkit-box-align: center;
