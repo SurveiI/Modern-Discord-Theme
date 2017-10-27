@@ -316,10 +316,6 @@
     box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
 }
 
-.links, .chat, .typing, .private-channels, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection {
-    background: rgba(0, 0, 0, 0) !important !important;
-}
-
 .scroller-fzNley {
     background: rgba(0, 0, 0, 0.52);
 }
@@ -576,10 +572,6 @@
     box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
 }
 
-.links, .chat, .typing, .private-channels, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection {
-    background: rgba(0, 0, 0, 0.56) !important;
-}
-
 .scroller-fzNley {
     background: rgba(0, 0, 0, 0.52);
 }
@@ -748,10 +740,6 @@
     border-bottom: 2px solid var(--main-color);
     margin-top: -2px;
     box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
-}
-
-.links, .chat, .typing, .private-channels, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection {
-    background: rgba(0, 0, 0, 0.56) !important;
 }
 
 .scroller-fzNley {
@@ -964,10 +952,6 @@
     border-bottom: 2px solid var(--main-color);
     margin-top: -2px;
     box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
-}
-
-.links, .chat, .typing, .private-channels, .divider-red span, .messages-wrapper, #voice-connection, #rtc-connection {
-    background: rgba(0, 0, 0, 0.56) !important;
 }
 
 .scroller-fzNley {
