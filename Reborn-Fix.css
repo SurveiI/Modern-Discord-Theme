@@ -10,7 +10,7 @@
 .guilds-add {
     font-size: 30px !important;
     color: #fff !important;
-    margin: 0px 0px -71px 0px;
+    margin: 0px 0px -71px 0px!Important;
     font-weight: 500 !important;
     background: var(--main-color) !important;
     transition: .2s all linear !important;
