@@ -1,3 +1,100 @@
+/* Jumbled Fixes */
+
+.winButton-U7zAqI:after {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    visibility: visible!Important;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative!important;
+    display: grid;
+    top: 27px;
+    width: 28px;
+}
+
+.winButtonMinMax-bT_gQ1:after {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    visibility: visible!Important;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative!important;
+    display: grid;
+    top: 27px;
+    width: 28px;
+}
+
+.center-1MLNrE:after {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    visibility: visible!Important;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative!important;
+    display: grid;
+    top: 27px;
+    width: 28px;
+}
+
+.winButton-U7zAqI {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    visibility: visible!Important;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative;
+    top: 27px;
+    width: 28px;
+}
+
+.winButton-U7zAqI:after {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 22px;
+    visibility: visible!Important;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative;
+    top: 27px;
+    width: 28px;
+}
+
+.title-qAcLxz, .titleCall-3X0yGQ {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 48px;
+    padding: 0 79px 0 12px;
+}
+
+.appMount-14L89u {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: #19191b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: #19191b;
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
 .search-results-wrap {
     margin: 0px 0px 0px -23px;
     padding: 0px 0px 0px 0px;
