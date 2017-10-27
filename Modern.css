@@ -1,5 +1,30 @@
 /* Jumbled Fixes */
 
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    border-bottom: 2px var(--main-color) solid !important;
+    background: #131313;
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.scrollerWrap-2uBjct {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1;
+    background: #131313;
+    height: 100%;
+    min-height: 1px;
+    position: relative;
+}
+
+.guilds-wrapper {
+    width: 76px;
+    height: 873px;
+}
+
 .typeWindows-15E0Ys {
     height: 0px;
     margin-top: 4px;
