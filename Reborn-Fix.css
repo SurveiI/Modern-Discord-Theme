@@ -1,3 +1,10 @@
+@import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile.css);
+@import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice.css);
+
+/* Fix Discord Scroll */
+
+
+
 .theme-dark .container-iksrDt {
     height: 71px;
     background: transparent;
