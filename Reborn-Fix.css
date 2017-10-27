@@ -1,6 +1,12 @@
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile.css);
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice.css);
 
+.theme-dark .guilds-wrapper {
+    margin-top: 48px !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    /* height: calc(100% - 119px) !important; */
+}
+
 .theme-dark .container-iksrDt {
     height: 71px;
     background: transparent;
