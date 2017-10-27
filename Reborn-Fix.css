@@ -21,7 +21,7 @@
 .guilds-wrapper .guilds-add {
     border: 0px solid transparent;
     position: fixed !important;
-    bottom: 1px;
+    bottom: 1px!important;
     width: 74px !important;
     border-radius: 0px;
     left: 0px;
