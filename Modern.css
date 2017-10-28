@@ -21,6 +21,75 @@
     margin-bottom: 8px;
 }
 
+.theme-dark [class*="cardPrimaryEditable"], .theme-dark [class*="cardPrimary"], .theme-dark [class*="cardPrimaryOutline"], .theme-dark [class*="headerClickable"], .theme-dark [class*="headerDefault"], .theme-dark [class*="headerExpanded"] {
+    background: #131313 !important;
+    border: none!Important;
+    box-shadow: none!Important;
+}
+
+.user-settings-streamer-mode {
+    background: #131313;
+}
+
+.headerBar-cxbhPD {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 46px;
+    padding: 0 8px 0 12px;
+    visibility: visible;
+    z-index: 1;
+}
+
+.messages-popout {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    background: #0f0f11!Important;
+    flex: 1;
+    padding: 13px 5px 7px 13px;
+}
+
+.messages-popout .message-group {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-transition: border-color .1s ease-in-out;
+    -webkit-user-select: none;
+    border: 2px solid rgba(28,36,43,.06);
+    border-radius: 5px;
+    margin: 0 0 6px;
+    top: -8px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    transition: border-color .1s ease-in-out;
+    user-select: none;
+}
+
+.app .guilds .guild:first-of-type .guild-inner {
+    background: #131313 !important;
+}
+
+.theme-dark .themed-popout {
+    background-color: #19191b !important;
+    border: 2px solid #131315 !important;
+    width: 558px;
+}
+
+
+
+.channels-3g2vYe {
+    -ms-flex-negative: 0;
+    background-color: #131313;
+    flex-shrink: 0;
+    width: 290px;
+}
+
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     background-color: #19191b;
