@@ -6,6 +6,54 @@
     background-color: #121213;
 }
 
+/* Boop FIXES */
+
+.container-iksrDt {
+    height: 71px;
+    background: #131313;
+    border-top: 2px solid #212121;
+    width: calc(100% - -60px);
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    border-radius: 0px !important;
+    margin-left: -78px;
+    margin-bottom: 8px;
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: #19191b;
+    box-shadow: 0 -1px 0 hsla(196, 55%, 43%, 0.77);
+}
+
+/* Timestamp */
+
+.theme-dark .message-group h2 span {
+    color: hsla(0, 0%, 100%, 0.63);
+}
+Modern.css:1647
+.message-group h2 .timestamp {
+    padding-top: 11px;
+}
+aa07bba….css:878
+.message-group h2 .timestamp {
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 6px;
+    text-transform: none;
+}
+
+.container-iksrDt {
+    padding: 15px 6px 26px 19px!Important;
+    border-top: none!Important;
+    height: 72px!important;
+    position: initial!important;
+    margin: 4px 1px 1px -84px!Important;
+}
+
+
 .guilds-wrapper .scroller-wrap {
     width: 78px;
     margin-bottom: -66px;
