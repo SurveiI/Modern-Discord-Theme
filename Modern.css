@@ -3780,9 +3780,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 .ui-card[style*="padding: 10px; border-color: rgb(240, 71, 71); background-color: rgb(240, 71, 71);"] {border-color: #f04747 !important;background-color: #f04747 !important;border: 2px solid #f04747 !important;}
 
 .channel-members::after {
-    font-family: "Satisfy";
-    text-align: center;
-    background-image: url(https://i.imgur.com/6hKs0jj.png);
+    content: url(https://i.imgur.com/6hKs0jj.png);
     background-position-x: -6px;
     color: #2e2e30;
     font-weight: 700;
