@@ -203,18 +203,6 @@ Modern.css:4949
 .theme-dark .message-group h2 span {
     color: hsla(0, 0%, 100%, 0.63);
 }
-Modern.css:1647
-.message-group h2 .timestamp {
-    padding-top: 11px;
-}
-aa07bba….css:878
-.message-group h2 .timestamp {
-    font-size: 0.6rem;
-    font-weight: 400;
-    letter-spacing: 0;
-    margin-left: 6px;
-    text-transform: none;
-}
 
 .container-iksrDt {
     padding: 15px 6px 26px 19px!Important;
@@ -1975,8 +1963,6 @@ textarea{background:transparent !important;}
 .modal-content .form-inner p{color:#e4e4e4;}
 
 .message-group h2 strong{color:#f3f3f3;}
-
-.message-group h2 .timestamp{color:#b5b5b5;padding-top:6px;}
 
 .radio-theme.light{display:none;}
 
