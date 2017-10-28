@@ -209,15 +209,6 @@ Modern.css:4949
     color: hsla(0, 0%, 100%, 0.63);
 }
 
-.container-iksrDt {
-    padding: 15px 6px 26px 19px!Important;
-    border-top: none!Important;
-    height: 72px!important;
-    position: initial!important;
-    margin: 4px 1px 1px -84px!Important;
-}
-
-
 .guilds-wrapper .scroller-wrap {
     width: 78px;
     margin-bottom: -66px;
@@ -250,20 +241,6 @@ Modern.css:4949
     line-height: 1px;
     font-size: 0px !important;
     transition: .1s all linear;
-}
-
-.container-iksrDt .avatar-small {
-    -ms-flex-negative: 0;
-    cursor: pointer;
-    flex-shrink: 0;
-    margin: 0 10px 0 72px!important;
-}
-
-.container-iksrDt .avatar-small {
-    -ms-flex-negative: 0;
-    cursor: pointer;
-    flex-shrink: 0;
-    margin: 0 10px 0 69px;
 }
 
 .scroller.guilds {
@@ -396,19 +373,6 @@ aa07bba….css:878
     z-index: 1;
 }
 
-.container-iksrDt {
-    height: 71px;
-    background: #121213;
-    border-top: 2px solid #212121;
-    width: calc(100% - -60px);
-    position: relative;
-    z-index: 10;
-    color: #fff;
-    border-radius: 0px !important;
-    margin-left: -78px;
-    margin-bottom: 8px;
-}
-
 .guilds-wrapper .scroller-wrap {
     width: 78px;
 }
@@ -418,19 +382,6 @@ aa07bba….css:878
     background-color: #111113;
     flex-shrink: 0;
     width: 290px;
-}
-
-.container-iksrDt {
-    height: 71px;
-    background: #121213;
-    border-top: 2px solid #212121;
-    width: calc(100% - -50px);
-    position: relative;
-    z-index: 10;
-    color: #fff;
-    border-radius: 0px !important;
-    margin-left: -78px;
-    margin-bottom: 8px;
 }
 
 .private-channels .search-bar-inner {
@@ -576,14 +527,6 @@ span.text {
 
 button.guild.guilds-add {
     margin: 0px 0px 40px 2px;
-}
-
-.container-iksrDt {
-    padding: 15px 6px 26px 19px!Important;
-    border-top: none!Important;
-    height: 72px!important;
-    position: initial!important;
-    margin: 4px 1px -1px -75px!Important;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
@@ -1083,19 +1026,6 @@ background-image: url(https://i.imgur.com/4ATqlI7.gif) !important;
     outline: none;
     resize: none;
     width: 100%;
-}
-
-.container-iksrDt {
-    height: 71px;
-    background: #19191b;
-    border-top: 2px solid #212121;
-    width: calc(100% - -60px);
-    position: relative;
-    z-index: 10;
-    color: #fff;
-    border-radius: 0px !important;
-    margin-left: -78px;
-    margin-bottom: 8px;
 }
 
 /* END */
