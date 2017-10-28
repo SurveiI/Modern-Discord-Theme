@@ -120,8 +120,6 @@ code {
     max-width: 397px;
 }
 
-@media screen and (max-width: 1020px)
-Modern.css:4949
 .chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup {
     max-width: 75%;
 }
@@ -195,12 +193,6 @@ Modern.css:4949
     background-color: #131313;
     flex-shrink: 0;
     width: 290px;
-}
-
-.theme-dark .chat form {
-    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
-    background-color: #19191b;
-    box-shadow: 0 -1px 0 hsla(196, 55%, 43%, 0.77);
 }
 
 /* Timestamp */
@@ -495,19 +487,9 @@ aa07bba….css:878
     width: 100vw;
 }
 
-.theme-dark .chat form {
-    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
-    background-color: #19191b;
-    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
-}
-
 .search-results-wrap {
     margin: 0px 0px 0px -23px;
     padding: 0px 0px 0px 0px;
-}
-
-.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
-    margin: 0px 0px 9px 0px;
 }
 
 .theme-dark .chat form .typing .ellipsis {
@@ -1008,30 +990,6 @@ background-image: url(https://i.imgur.com/4ATqlI7.gif) !important;
 
 /* END */
 
-/* CHAT */
-
-.textArea-20yzAH {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: transparent;
-    border: none;
-    font-size: 0.9375rem;
-    font-weight: 400;
-    letter-spacing: -0.025rem;
-    line-height: 1.25rem;
-    margin: 2px 1px 11px 0;
-    max-height: 144px;
-    min-height: 20px;
-    outline: none;
-    resize: none;
-    width: 100%;
-}
-
-/* END */
-
-
-
 /* Version Displayed */
 
 .version{display:inline-block;margin:0px 0px 0px 0px;}
@@ -1205,8 +1163,6 @@ div.avatar-large{border-radius:5px;}
 .channel-members .member:hover>.avatar-small{margin-left:-14px;}
 
 .guild-header{border-bottom:2px solid var(--main-color);}
-
-.theme-dark .message-group .comment .markup pre{background:#141417 !important;border-color:#111113 !important;}
 
 .account .btn-settings:after{opacity:0.2;}
 
@@ -5209,18 +5165,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: var(--main-color);}
-
-@media screen and (max-width:1100px){.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width:95%;}
-
-.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width:85%;}
-
-}
-
-@media screen and (max-width:1020px){.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup{max-width:90%;}
-
-.chat .content .flex-spacer.flex-vertical:not(:only-child) .message-group .comment .markup{max-width:80%;}
-
-}
 
 @media screen and (max-width:970px){.flex-vertical.channels-wrap{z-index:0;width:0px;transition:width linear .3s;height:100%;background:transparent;border-right:solid transparent 0px;}
 
