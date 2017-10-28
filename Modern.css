@@ -2546,8 +2546,6 @@ button.bd-customicon-settings{display:none;}
 
 #user-profile-modal .header .header-info .header-info-inner .activity{color:#a5a5a5;}
 
-.message-group:not(.compact) .avatar-large[style*="81388395867156480"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .member-username-inner::after{content:"Salty Developer";color:#fff;background:var(--main-color);border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 2px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;}
-
 .new-messages-indicator.bottom .icon.icon-unread-arrow,.new-messages-indicator .icon.icon-unread-arrow{margin-right:-19px;}
 
 .new-messages-indicator.new-messages-indicator-mention{display: none;}
@@ -2978,10 +2976,6 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 .user-popout .footer .update-notice{display:none;}
 
 .context-menu .item{border-radius:0px;}
-
-.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .renamer-tag{display:none;}
-
-.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .kawaii-tag{display:none;}
 
 .theme-dark .search-results-wrap{z-index:10;}
 
@@ -3632,20 +3626,11 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .titlebar{width: calc(100% - 300px);left: auto;right: 0;}
 
-*[style*="81388395867156480"] {background-image:url(https://i.imgur.com/5dMIWlw.png)!important;}
-
 .app .guilds>div.guild:first-child .badge{margin: 0px 2px 0px 0px !important;padding: 20px 38px 16px 35px;border-radius: 0px !important;background-color: #19191b;border-bottom: 2px solid var(--main-color);transition: .2s background-color linear;}
 
 .app .guilds>div.guild:first-child:hover .badge{background-color: #121213;}
 
 .friends-icon{background-image: url(https://bearddesign.s-ul.eu/Dr2CyE1L.svg)!important; }
-
-[style*="81388395867156480"] ~ .member-inner .member-username-inner,
-[style*="81388395867156480"] ~ .comment .user-name {font-size:0px !important;}
-[style*="81388395867156480"] ~ .member-inner .member-username-inner::before,
-[style*="81388395867156480"] ~ .comment .user-name::after {content:"betterdocs.net";font-size:16px;}
-
-.channel-members .member .avatar-small[style*="81388395867156480"] ~ .member-inner .member-username .member-username-inner::after{line-height: 26px!important;}
 
 .keybind-shortcut.dark span{background-color: #121213;}
 
