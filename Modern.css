@@ -6,6 +6,26 @@
     background-color: #121213;
 }
 
+/* More theme fixes */
+
+code {
+    background-color: #353c44!important;
+    background-image: linear-gradient(rgb(26, 28, 31) 50%, transparent 50%)!important;
+    background-origin: content-box!important;
+    color: white!important;
+    background-position: 0 1.5em!important;
+    background-size: 100% 3em!important;
+    line-height: 1.5 !important;
+}
+
+.theme-dark .message-group .comment .markup pre {
+    background: #141417 !important;
+    border-color: #19191b !important;
+}
+
+
+
+
 /* Boop FIXES */
 
 .container-iksrDt {
@@ -20,6 +40,20 @@
     margin-left: -78px;
     margin-bottom: 8px;
 }
+
+.attachment-image .image, .message-group .comment .attachment-image img, .embed .image, .embed .embed-thumbnail img {
+    border-radius: 3px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+    max-width: 397px;
+}
+
+@media screen and (max-width: 1020px)
+Modern.css:4949
+.chat .content .flex-spacer.flex-vertical:only-child .message-group .comment .markup {
+    max-width: 75%;
+}
+
+
 
 .theme-dark [class*="cardPrimaryEditable"], .theme-dark [class*="cardPrimary"], .theme-dark [class*="cardPrimaryOutline"], .theme-dark [class*="headerClickable"], .theme-dark [class*="headerDefault"], .theme-dark [class*="headerExpanded"] {
     background: #131313 !important;
@@ -1162,8 +1196,6 @@ div.avatar-large{border-radius:5px;}
 .guild-header{border-bottom:2px solid var(--main-color);}
 
 .theme-dark .message-group .comment .markup pre{background:#141417 !important;border-color:#111113 !important;}
-
-.theme-dark .hljs{color:#888888 !important;}
 
 .account .btn-settings:after{opacity:0.2;}
 
