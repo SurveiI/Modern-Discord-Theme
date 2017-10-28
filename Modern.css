@@ -6,6 +6,47 @@
     background-color: #121213;
 }
 
+.guilds-wrapper .scroller-wrap {
+    width: 78px;
+    margin-bottom: -66px;
+}
+
+.guilds-wrapper {
+    width: 76px;
+    height: 989px;
+}
+
+.title-qAcLxz, .titleCall-3X0yGQ {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 46px!important;
+    padding: 0 79px 0 12px;
+}
+
+.guilds-wrapper .guilds-add {
+    border: 0px solid transparent;
+    position: fixed !important;
+    bottom: -39px!important;
+    width: 74px !important;
+    border-radius: 0px;
+    left: 0px;
+    height: 3px !important;
+    line-height: 1px;
+    font-size: 0px !important;
+    transition: .1s all linear;
+}
+
+.container-iksrDt .avatar-small {
+    -ms-flex-negative: 0;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0 10px 0 72px!important;
+}
+
 .container-iksrDt .avatar-small {
     -ms-flex-negative: 0;
     cursor: pointer;
