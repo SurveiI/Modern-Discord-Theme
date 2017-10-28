@@ -6,6 +6,33 @@
     background-color: #121213;
 }
 
+.typing {
+    height: 24px;
+}
+
+.textArea-20yzAH {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: -0.025rem;
+    line-height: 1.25rem;
+    margin: 2px 1px 3px 0px;
+    max-height: 144px;
+    min-height: 20px;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+
+.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
+    margin: 0px 0px 6px 0px;
+}
+
+
 /* More theme fixes */
 
 .theme-dark .chat form {
