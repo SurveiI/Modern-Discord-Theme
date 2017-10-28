@@ -10,6 +10,11 @@
     height: 24px!important;
 }
 
+.guilds-wrapper {
+    width: 76px;
+    height: 978px!important;
+}
+
 .message-group h2 .timestamp {
     color: #99aab5!important;
     font-size: 0.55rem!important;
