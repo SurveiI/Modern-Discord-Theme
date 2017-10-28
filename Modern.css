@@ -1012,21 +1012,22 @@ text-shadow: 0px 1px 3px #000;
 
 /* NightWulf's stuff */
 
-.message-group:not(.compact) .avatar-large[style*="207524250075004928"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style="207524250075004928"] ~ .member-inner .member-username .member-username-inner::after {
-    content: "Retard"!important;
-    color: #fff!important;
-    border-radius: 3px!important;
-    background: #8213E4!important;
-    margin-left: 6px!important;
-    font-size: 10px!important;
-    font-weight: 600!important;
-    text-transform: uppercase!important;
-    vertical-align: bottom!important;
-    padding: 1px 4px!important;
-    line-height: 14px!important;
-    flex-shrink: 0!important;
-    -webkit-flex-shrink: 0!important;
-    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+.message-group:not(.compact) .avatar-large[style*="207524250075004928"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Retard";
+    color: #8213E4;
+    border-radius: 3px;
+    border: 1px solid #8213E4;
+    background: rgba(154, 26, 218, 0.0980392);
+    margin-left: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    padding: 1px 4px;
+    line-height: 14px;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
 }
 
 /* Dimitri's Gif AVATAR POOL*/
