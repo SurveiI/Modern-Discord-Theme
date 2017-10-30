@@ -291,17 +291,6 @@
     margin-right: 42px!important;
 }
 
-.avatar-large .status, .avatar-profile .status, .avatar-small .status, .avatar-xlarge .status, .avatar-xsmall .status, .avatar-xxlarge .status {
-    background-clip: padding-box!important;
-    bottom: -4px!important;
-    height: 39px!important;
-    pointer-events: none!important;
-    right: -3px!important;
-    padding: 0px 0px 0px 1px!important;
-    position: absolute!important;
-    width: 39px!important;
-}
-
 .channel-members .avatar-small .status, .private-channels .avatar-small .status, .account .avatar-small .status {
     width: 100%!important;
     height: 100%!Important;
