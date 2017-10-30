@@ -45,6 +45,28 @@
     white-space: nowrap;
 }
 
+.private-channels .channel a {
+    -ms-flex-align: center;
+    -ms-flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    height: 40px;
+    margin: 1px 0 -5px 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
 .message-group .avatar-large {
     margin-top: 0px;
     margin-left: 13px;
@@ -160,14 +182,6 @@
     text-transform: capitalize;
     transition: background-color .2s;
     z-index: 2;
-}
-
-.chat .jump-to-present-bar button:last-child {
-    -webkit-transition: color .2s;
-    color: hsl(0, 0%, 100%);
-    font-size: 12px;
-    text-transform: uppercase;
-    transition: color .2s;
 }
 
 .theme-dark .chat form {
@@ -756,32 +770,6 @@ span.headerUsernameNoNickname-1iGxNP {
     -webkit-animation: mentionpulse 2s infinite;
     animation: mentionpulse 0s infinite;
 }
-.chat .jump-to-present-bar {
-    -webkit-transition: background-color .2s;
-    background-color: rgba(153, 170, 181, .9);
-    border-radius: 3px 3px 0 0;
-    bottom: 0;
-    color: hsla(0, 0%, 100%, .6);
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-weight: 400;
-    left: 1030px!important;
-    position: absolute;
-    right: 20px;
-    text-transform: capitalize;
-    transition: background-color .2s;
-    z-index: 2;
-}
-.chat .jump-to-present-bar button {
-    background: none;
-    color: #fff;
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    line-height: 14px;
-    padding: 6px 15px;
-    text-align: center;
-}
 
 .chat>.content .messages .message-group .markup {
     color: #ffffff;
@@ -819,24 +807,7 @@ span.headerUsernameNoNickname-1iGxNP {
     padding-top: 60px;
     position: relative;
 }
-.private-channels header {
-    -webkit-transition: opacity .15s ease;
-    color: #fff;
-    cursor: default;
-    display: block;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: .025em;
-    margin-top: 12px;
-    /* opacity: .3; */
 
-    overflow: hidden;
-    padding: 9px 20px;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    transition: opacity .15s ease;
-    white-space: nowrap;
-}
 .ui-standard-sidebar-view .esc-text {
     font-size: 13px;
     font-weight: 600;
@@ -4636,8 +4607,6 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 .botTagInvert-gorWR_{background:var(--hover-color);color:#fff;}
 
 .guild div.avatar-large{border-radius:0px !important;}
-
-.message-group .edit-message .edit-container-outer .bf-toolbar div:not(.bf-arrow){padding: 11px 5px;}
 
 .theme-dark .checked-2TahvT{border-color: var(--main-color) !important;}
 
