@@ -8,6 +8,81 @@
 [class*="avatar-"], .status, [class*="avatarStatus"], .image-EVRGPw{border-radius: 50% !important;}
 .guilds [class*="avatar-"]{border-radius: 0 !important;}
 
+/* Status Fix */
+
+.status-online {
+    background-color: transparent;
+    border: 2px solid #43b581!Important;
+}
+
+.status-idle {
+    background-color: transparent;
+    border: 2px solid #faa61a!important;
+}
+
+.status-online {
+    background-color: transparent;
+    border: 2px solid #43b581!Important;
+}
+
+.channel-members .avatar-small .status-dnd, .private-channels .avatar-small .status-dnd, .account .avatar-small .status-dnd {
+    border: 2px solid #f04747!Important;
+}
+
+.channel-members .avatar-small .status-idle, .private-channels .avatar-small .status-idle, .account .avatar-small .status-idle {
+    border: 2px solid #faa61a!Important;
+}
+
+.avatar-small .status {
+    width: 99%!important;
+    height: 100%!important;
+    border-width: 2px!important;
+    right: -2px!important;
+    bottom: -2px!important;
+}
+
+.aka-2Ba14Z {
+    -ms-flex-negative: 0;
+    background: var(--main-color);
+    border-radius: 3px;
+    color: #fff;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 8px;
+    padding: 1px 3px;
+    position: relative;
+    text-transform: uppercase;
+    top: 2px;
+    vertical-align: top;
+}
+
+/* Header fixes */
+
+.header-1tSljs {
+    -ms-flex-align: center!important;
+    -webkit-box-align: center!important;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.06)!important;
+    -webkit-box-sizing: border-box!important;
+    -webkit-transition: background-color .15s ease!important;
+    align-items: center!important;
+    border-bottom: 1px solid rgba(0,0,0,.2)!important;
+    box-shadow: 0 2px 0 var(--main-color)!important;
+    box-sizing: border-box!important;
+    background: #131313!important;
+    color: #fff!important;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif!important;
+    font-weight: 500!important;
+    height: 46px!important;
+    padding: 0 16px!important;
+    transition: background-color .15s ease!important;
+    z-index: 3!important;
+}
+
 
 /* title bar looks */
 #app-mount {
@@ -115,7 +190,6 @@
 .chat .divider > span {
     color: #ffffff !important;
     border-bottom: 1px solid var(--main-color)!important;
-    background: transparent !important;
     border-radius: 3px!important;
     position: relative!important;
     text-align: center!important;
@@ -170,7 +244,7 @@
 .innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
     margin: -18px 0px 6px 0px!important;
     display: flex!important;
-    padding: 0px 990px 10px 0px!important;
+    padding: 0px 66px 10px 0px!important;
 }
 
 .textArea-20yzAH {
@@ -182,13 +256,17 @@
     font-size: 0.9375rem!important;
     font-weight: 400!important;
     letter-spacing: -0.025rem!important;
-    line-height: 1.25rem!important;
-    margin: 2px 4px 3px 0px!important;
-    max-height: 144px!important;
+    line-height: 1rem!important;
+    margin: 2px 4px -1px 0px!important;
+    max-height: 20px!important;
     min-height: 20px!important;
     outline: none!important;
-    resize: none!important;
     width: 1274px!important;
+}
+
+.chat .divider {
+    height: 28px;
+    background-color: #111113!important;
 }
 
 .bf-toolbar {
@@ -216,11 +294,21 @@
 .avatar-large .status, .avatar-profile .status, .avatar-small .status, .avatar-xlarge .status, .avatar-xsmall .status, .avatar-xxlarge .status {
     background-clip: padding-box!important;
     bottom: -4px!important;
-    height: 40px!important;
+    height: 39px!important;
     pointer-events: none!important;
+    right: -3px!important;
+    padding: 0px 0px 0px 1px!important;
     position: absolute!important;
-    right: -4px!important;
-    width: 40px!important;
+    width: 39px!important;
+}
+
+.channel-members .avatar-small .status, .private-channels .avatar-small .status, .account .avatar-small .status {
+    width: 100%!important;
+    height: 100%!Important;
+    top: -2px;
+    left: -2px;
+    box-shadow: 0 0 1px #000 inset;
+    transition: .3s all linear;
 }
 
 .message-group .avatar-large {
@@ -474,16 +562,19 @@ code {
 }
 
 .guilds-wrapper .guilds-add {
-    border: 0px solid transparent!important;
-    position: fixed !important;
-    bottom: -39px!important;
-    width: 74px !important;
-    border-radius: 0px!important;
-    left: 0px!important;
-    height: 3px !important;
-    line-height: 1px!important;
-    font-size: 0px !important;
-    transition: .1s all linear!important;
+    -webkit-transition: border-color .25s ease,color .25s ease;
+    background: var(--main-color)!important;
+    border: 1px dashed #535559;
+    border-radius: 50%;
+    color: #535559;
+    font-size: 40px;
+    font-weight: 300;
+    height: 100%;
+    line-height: 100%;
+    padding: 0;
+    text-align: center;
+    transition: border-color .25s ease,color .25s ease;
+    width: 100%;
 }
 
 .scroller.guilds {
@@ -919,29 +1010,6 @@ span.headerUsernameNoNickname-1iGxNP {
     justify-content: center!important;
     position: fixed!important;
     width: 36px!important;
-}
-
-.header-1tSljs {
-    -ms-flex-align: center!important;
-    -webkit-box-align: center!important;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.06)!important;
-    -webkit-box-sizing: border-box!important;
-    -webkit-transition: background-color .15s ease!important;
-    align-items: center!important;
-    border-bottom: 1px solid rgba(0,0,0,.2)!important;
-    box-shadow: 0 1px 0 rgba(0,0,0,.06)!important;
-    box-sizing: border-box!important;
-    background: #131313!important;
-    color: #fff!important;
-    display: -webkit-box!important;
-    display: -ms-flexbox!important;
-    display: flex!important;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif!important;
-    font-weight: 500!important;
-    height: 56px!important;
-    padding: 0 16px!important;
-    transition: background-color .15s ease!important;
-    z-index: 3!important;
 }
 
 .chat form {
@@ -1664,7 +1732,7 @@ textarea{background:transparent ;}
 
 .guilds-add{font-size:30px ;color:#fff ;font-weight:500 ;background:var(--main-color) ;transition:.2s all linear ;transform:scale(1);box-shadow:0 0px 6px 0px var(--hover-color)!important;}
 
-.guilds-add:hover{transform:scale(1.1);box-shadow:0 0px 9px 0px var(--hover-color)!important;}
+.guilds-add:hover{transform:scale(1.1)!important;box-shadow:0 0px 9px 0px var(--hover-color)!important;}
 
 .guilds .friends-online{margin-left:-5px;}
 
@@ -2908,15 +2976,15 @@ button.bd-customicon-settings{display:none;}
 
 .message-group .comment>div:hover .btn-option,.message-group .comment>div:hover .btn-reaction,.message-group .comment>div .btn-option,.message-group .comment>div .btn-reaction{padding-top:5px ;}
 
-.title > .status-online, [class*=titleText-] > .status-online{background:#43b581 ;border:0px transparent ;}
+.title > .status-online, [class*=titleText-] > .status-online{background:#43b581!important ;border:0px transparent ;}
 
-.title > .status-idle, [class*=titleText-] > .status-idle{background:#faa61a ;border:0px transparent ;}
+.title > .status-idle, [class*=titleText-] > .status-idle{background:#faa61a!important ;border:0px transparent ;}
 
-.title > .status-dnd, [class*=titleText-] > .status-dnd{background:#f04747 ;border:0px transparent ;}
+.title > .status-dnd, [class*=titleText-] > .status-dnd{background:#f04747!important ;border:0px transparent ;}
 
-.title > .status-offline, [class*=titleText-] > .status-offline{background:#282829 ;border:0px transparent ;}
+.title > .status-offline, [class*=titleText-] > .status-offline{background:#282829!important ;border:0px transparent ;}
 
-.title > .status-offline, [class*=titleText-] > .status-offline{background:#747f8d ;border:0px transparent ;}
+.title > .status-offline, [class*=titleText-] > .status-offline{background:#747f8d!important ;border:0px transparent ;}
 
 .message-group:not(.compact) .avatar-large[style*="/a_"] ~ .comment .body h2 .timestamp{order:3;}
 
