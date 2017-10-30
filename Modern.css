@@ -75,6 +75,11 @@
     margin-bottom: 8px!important;
 }
 
+.channelTextArea-os01xC {
+    margin: 20px 0 3px!important;
+    padding: 0px 0px 0px 0px!important;
+}
+
 .chat form {
     -ms-flex-negative: 0!important;
     -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,.1)!important;
@@ -92,10 +97,6 @@
     cursor: pointer!important;
     flex-shrink: 0!important;
     margin: 0 10px 0 83px!important;
-}
-
-.channelTextArea-os01xC {
-    margin: 1px 0 18px!important;
 }
 
 .scroller.messages {
@@ -161,11 +162,6 @@
     text-decoration: none!important;
 }
 
-.channelTextArea-os01xC {
-    margin: 20px 0 30px!important;
-    padding: 0px 0px 29px 0px!important;
-}
-
 .chat .messages {
     margin: 0px 0px 0px -20px!important;
     overflow-x: hidden!important;
@@ -215,6 +211,24 @@
     pointer-events: none!important;
     padding: 10px 30px 15px 5px!important;
     margin-right: 42px!important;
+}
+
+.avatar-large .status, .avatar-profile .status, .avatar-small .status, .avatar-xlarge .status, .avatar-xsmall .status, .avatar-xxlarge .status {
+    background-clip: padding-box!important;
+    bottom: -4px!important;
+    height: 40px!important;
+    pointer-events: none!important;
+    position: absolute!important;
+    right: -4px!important;
+    width: 40px!important;
+}
+
+.message-group .avatar-large {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 23px!important;
+    margin-top: -3px!important;
+    left: 8px!important;
 }
 
 .bf-toolbar .bf-arrow {
@@ -271,12 +285,6 @@
     text-transform: capitalize!important;
     transition: background-color .2s!important;
     z-index: 2!important;
-}
-
-.theme-dark .chat form {
-    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06)!important;
-    background-color: #36393f!important;
-    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06)!important;
 }
 
 .guilds-wrapper .guilds {
@@ -708,9 +716,6 @@ button.guild.guilds-add {
 .guilds [class*="avatar-"] {
     border-radius: 0 !important;
 }
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    display: none!important;
-}
 .content-region .CodeMirror-simplescroll-vertical,
 #bd-customcss-detach-container .CodeMirror-simplescroll-vertical {
     margin-right: 1px !important;
@@ -1098,16 +1103,6 @@ background-image: url(https://i.imgur.com/4ATqlI7.gif) !important;
 .version{display:inline-block!important;margin:0px 0px 0px 0px!important;}
 
 .version:after{content:var(--version-content)!important;display:block!important;font-size:14px!important;font-weight:700!important;color:#43B581!important;}
-
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: var(--theme-name)" v" var(--version-content) "\A \A Theme Options:\A \A - Revert bottom to default\A - Bring back mention(s) notifications bar\A - Circle Avatars\A - Revert Min, Max, Close buttons to default\A - Better Mentions (Pulsing Box Shadow)\A - Show/Hide Blocked messages\A - Loading Theme Animation \A \A Go to discord.me/mrrobotserver to show love and support! <3"!important;}
-
-.need-help-modal .header h1::after{content:var(--theme-name)" v" var(--version-content)!important;color:#fff!important;font-weight:700!important;font-size:250%!important;z-index:11!important;position:absolute!important;width:200%!important;left: 0px!important;margin-left: -45px!important;top: 16px!important;font-family:Satisfy!important;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4)!important;}
-
-#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hi, I have a server where I post customizable options for the theme and you can give \A me feedback, also with tons of bots. Join the server at discord.me/mrrobotserver \A\A It's also easier to report bugs and has a higher chance of getting them fixed faster."!important;}
-
-.themedescription{display:block!important;width:100%!important;margin-right:5px!important;}
-
-.themedescription:before{display:block!important;font-size:14px!important;height:15px!important;color:#3ddcb1!important;font-weight:700!important;content:"Updates are automatic. Just restart Discord to get the latest version."!important;}
 
 body:before{content:"Thanks for using "var(--theme-name)"!"!important;z-index:1000000000000000000000000!important;color:#fff!important;background:var(--main-color)!important;top:0px!important;left:50%!important;position:absolute!important;border-radius:5px!important;padding:5px 15px!important;-webkit-transform:translate(-50%, -100%)!important;transform:translate(-50%, -100%)!important;-webkit-animation:version 3s ease!important;animation:version 3s ease!important;-webkit-animation-delay:4s!important;animation-delay:4s!important;}
 
@@ -4268,20 +4263,6 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 }
 
-.theme-dark [class*="selectorSelected-"]{background-color:#141414!important;}
-
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2::after{display:block!important;position:relative!important;background:var(--main-color)!important;padding:10px 15px!important;white-space:pre!important;margin-bottom:-10px!important;margin-top:15px!important;border-radius:2px!important;box-shadow:0 2px 10px rgba(0, 0, 0, .2)!important;font-weight:600!important;color:#fff!important;text-transform:initial!important;text-align:center!important;}
-
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{display:block!important;position:relative!important;background:#43B581!important;padding:10px 15px!important;white-space:pre!important;margin-bottom:10px!important;border-radius:2px!important;box-shadow:0 2px 10px rgba(0, 0, 0, .2)!important;font-weight:600!important;margin-top:2px!important;color:#fff!important;text-transform:initial!important;}
-
-{top:60px!important;position:absolute!important;left:120px!important;background:var(--main-color)!important;font-weight:600!important;}
-
-.bd-pfbtn{margin-bottom:5px!important;box-shadow:0 6px 10px rgba(0, 0, 0, .0)!important;transition:all 200ms ease!important;border-radius:3px!important;}
-
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default{position:relative!important;}
-
-.content-region #bd-customcss-attach-controls::after{width:100%!important;padding:10px!important;content:"To change the default colors just copy and paste the code below\A and replace the hex codes with your own. (those are my colors)\A \A:root{\A --main-color:#e91e63 !important;\A --hover-color:#b81147 !important;\A}\A\A To add custom options to the theme, copy the following code from\A my server and place the options you want in the box above.\A\A Don't forget to save/update when you're done!\A"!important;background:#43B581!important;margin-top:10px!important;display:block!important;border-radius:2px!important;font-family:Consolas, Liberation Mono, Menlo, Courier, monospace!important;white-space:pre!important;color:#fff!important;margin-bottom:0px!important;width:auto!important;}
-
 /*settings icons*/
 .user-settings-modal .tab-bar.SIDE .tab-bar-item::before {
     opacity: 1!important;
@@ -5184,8 +5165,6 @@ code{background-color: #19191b!important;background-image: linear-gradient(#1212
 @media screen and (max-width:970px){.flex-vertical.channels-wrap{z-index:0!important;width:0px!important;transition:width linear .3s!important;height:100%!important;background:transparent!important;border-right:solid transparent 0px!important;}
 
 .guilds-wrapper:hover ~ .flex-vertical.channels-wrap, .flex-vertical.channels-wrap:hover{width:25%!important;border-right:0px solid transparent!important;z-index: 3 !important;}
-
-.theme-dark .chat form {border-left: 0px solid #212121 !important;}
 
 .theme-dark .guilds-wrapper:hover ~ .chat form,  .theme-dark .flex-vertical.channels-wrap:hover ~ .chat form{border-left: 2px solid #212121 !important;}
 
