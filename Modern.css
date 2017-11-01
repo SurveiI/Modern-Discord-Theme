@@ -24,6 +24,32 @@
 }
 
 .container-iksrDt {
+    width: calc(100% - -57px)!important;
+}
+
+.bf-toolbar.bf-visible, .bf-toolbar.bf-hover:hover {
+    pointer-events: initial;
+    top: -27px!important;
+    left: 984px;
+    right: -36px!important;
+}
+
+.channel-members::after {
+    height: 83px!important
+    border-top: 1px solid var(--main-color)!important;
+}
+
+.theme-dark .chat form .typing {
+    background-color: #19191b;
+}
+
+.theme-dark .themed-popout .header {
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,20%);
+    background-color: #0f0f11!Important;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.container-iksrDt {
     height: 75px!important;
     background: #131313!important;
     border-top: 1px solid var(--main-color)!important;
@@ -34,6 +60,11 @@
     border-radius: 0px !important;
     margin-left: -76px!important;
     margin-bottom: 8px!important;
+}
+
+.app .guilds .guild:first-child {
+    top: -1px;
+    background: #131313!Important;
 }
 
 .guilds [class*="avatar-"] {
@@ -52,6 +83,19 @@
     background-color: #19191b;
     box-shadow: 0 -1px 0 var(--main-color)!important;
     border-top: 0px solid var(--main-color)!important;
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    margin: 0px 1px!Important;
+    background-color: #36393f;
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
+.emojiButton-38mF6t {
+    position: absolute;
+    right: 25px;
+    top: 11px;
 }
 
 .chat form {
@@ -125,6 +169,24 @@
     text-transform: uppercase;
     top: 2px;
     vertical-align: top;
+}
+
+/* Bichasaurus */
+
+.message-group:not(.compact) .avatar-large[style*="14565694018420737"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="14565694018420737"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Bichasaurus"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: #1d54ce!important;
+    margin-left: 6px!important;
+    font-size: 10px!important;
+    font-weight: 600!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
 
 /* Header fixes */
