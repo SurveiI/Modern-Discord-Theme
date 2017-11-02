@@ -9,7 +9,28 @@
 .guilds [class*="avatar-"]{border-radius: 0 !important;}
 
 
+/* BD Context Menu */
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+    background: #7289da;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    border-radius: 14px;
+    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: #ffffff;
+}
+
+
 /* Boop */
+
+
 
 .chat .divider>span {
     background: var(--main-color)!important;
@@ -122,6 +143,34 @@ width: calc(100% - -56px)!important;
     right: -2px;
     width: 40px;
 }
+
+.status-picker.popout-menu {
+    background: #131313;
+    border-radius: 0;
+    width: 70px;
+    bottom: 0px;
+    top: 678px;
+    height: 220px;
+    display: block;
+    transition: all 150ms cubic-bezier(.5, 0, 0, 1);
+    animation: sttus 400ms ease;
+    pointer-events: auto;
+    z-index: 100000000000;
+    left: 75px;
+    position: fixed;
+    overflow: visible;
+    animation: StatusSlide .3s ease-in-out;
+    animation-fill-mode: forwards;
+    border-right: 1px solid var(--main-color);
+    border-top: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+}
+
+.popout, .popouts {
+    position: relative;
+}
+
+
 
 .status-online {
     background-color: transparent;
@@ -402,6 +451,12 @@ width: calc(100% - -56px)!important;
     outline: none!important;
     width: 1274px!important;
 }
+
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: #131313;
+}
+
+
 
 .chat .divider {
     height: 28px;
@@ -738,9 +793,10 @@ code {
     display: -ms-flexbox!important;
     display: flex!important;
     flex: 1!important;
-    background: #131313!important;
+    background: rgb(8, 8, 8)!important;
     height: 100%!important;
     min-height: 1px!important;
+    z-index: 1;
     position: relative!important;
 }
 
@@ -993,7 +1049,7 @@ button.bd-pfbtn.bd-updatebtn {
 }
 .guilds-wrapper .guilds .friends-online {
     margin: 0px -13px!important;
-    background: #121213!important;
+    background: transparent!important;
     border-radius: 0px!important;
     line-height: 19px!important;
     color: white!important;
@@ -1002,6 +1058,15 @@ button.bd-pfbtn.bd-updatebtn {
     padding-bottom: 3px!important;
     transition: background .2s linear, color .2s linear!important;
     cursor: pointer!important;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
 }
 .quick-message {
     background: #0b0b0c!important;
@@ -2963,9 +3028,15 @@ button.bd-customicon-settings{display:none;}
 
 .search-bar-clear.active:after,.search-bar-clear.active:before{background:#000 ;}
 
-.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece{background-color:#111113;}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: transparent;
+    background-color: transparent;
+}
 
-.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb{background-color:var(--main-color);!important;border:2px solid #19191b;}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border: 3px solid transparent;
+    background-color: var(--main-color);
+}
 
 .mention{background-color:#131315 ;color:var(--main-color);!important;background:#131315;border-radius:3px;padding:1px 4px 2px 3px;}
 
@@ -3354,8 +3425,6 @@ to{box-shadow:0 0 10px 2px rgba(0, 0, 0, .12), 0 0 0 0 rgba(115, 139, 215, 0);}
 }
 
 .popout.popout-top[style*="overflow: hidden"],.popout.popout-bottom[style*="overflow: hidden"]{overflow: visible;}
-
-.status-picker.popout-menu{background: #19191b ;border-radius:0;width: 70px ;bottom:0px;top:initial;height: 220px ;display:block;transition:all 150ms cubic-bezier(.5, 0, 0, 1);animation:sttus 400ms ease;pointer-events:auto;z-index:1000000;left: 2px;position:fixed;overflow:visible;animation:StatusSlide .3s ease-in-out;animation-fill-mode:forwards;box-shadow:0px -2px 9px -2px #101010;border-right: 2px solid #212121;border-top: 2px solid #212121;border-left: 2px solid #212121;}
 
 .status-picker .popout-menu-item{transition:all 100ms cubic-bezier(0, 0, 0, 1);pointer-events:auto;float:left;width:30px;height:30px;border-radius:50%;padding:0;left:0;margin-left: 18px ;bottom:0;margin-top:20px;animation:scale-status 1000ms cubic-bezier(.46, .16, 0, 1.31);}
 
