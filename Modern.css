@@ -89,7 +89,6 @@
     border-top: 1px solid var(--main-color)!important;
 width: calc(100% - -56px)!important;
     position: relative!important;
-    z-index: 10!important;
     color: #fff!important;
     border-radius: 0px !important;
     margin-left: -76px!important;
@@ -168,7 +167,6 @@ width: calc(100% - -56px)!important;
     transition: all 150ms cubic-bezier(.5, 0, 0, 1);
     animation: sttus 400ms ease;
     pointer-events: auto;
-    z-index: 100000000000;
     left: 75px;
     position: fixed;
     overflow: visible;
