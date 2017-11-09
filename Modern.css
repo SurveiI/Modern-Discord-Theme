@@ -45,6 +45,11 @@
     color: white!Important;
 }
 
+
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(255, 255, 255, 0.04);
+}
+
 .chat .divider>span {
     background: var(--main-color)!important;
     font-size: 12px;
@@ -55,6 +60,12 @@
     padding: 5px 15px;
     width: 100%;
     text-align: center;
+}
+
+.message-group .comment .markup em {
+    font-style: italic;
+    text-align: center!Important;
+    margin-left: 15px;
 }
 
 .container-iksrDt {
@@ -399,12 +410,29 @@ width: calc(100% - -56px)!important;
 }
 
 .chat .divider > span {
-    color: #ffffff !important;
+    color: var(--main-color) !important;
     border-bottom: 1px solid var(--main-color)!important;
     border-radius: 3px!important;
     position: relative!important;
     text-align: center!important;
-    left: -14px!important;
+    left: 0px!important;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: transparent;
+    color: var(--main-color)!important;
+}
+
+.chat .divider>span {
+    background: #131313!important;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0px -15px;
+    border-radius: 0px;
+    opacity: 1;
+    padding: 5px 15px;
+    width: 100%;
+    text-align: center;
 }
 
 .private-channels header {
@@ -466,9 +494,10 @@ width: calc(100% - -56px)!important;
     border: none!important;
     font-size: 0.9375rem!important;
     font-weight: 400!important;
+    color: white!Important;
     letter-spacing: -0.025rem!important;
     line-height: 1rem;
-    margin: 16px 4px -1px 0px!important;
+    margin: 11px 4px 4px 23px!important;
     max-height: 20px!important;
     min-height: 20px!important;
     height: 1px!Important;
@@ -818,7 +847,7 @@ code {
     display: -ms-flexbox!important;
     display: flex!important;
     flex: 1!important;
-    background: rgb(8, 8, 8)!important;
+    background: rgb(18, 18, 19)!important;
     height: 100%!important;
     min-height: 1px!important;
     z-index: 1;
@@ -2243,8 +2272,6 @@ textarea{background:transparent ;}
 
 .theme-dark .friends-table .messages .divider:not(.red) span,.theme-dark .messages-wrapper .messages .divider:not(.red) span{opacity:1;}
 
-.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn,.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{background:#111113;color:#a0a0a0 ;}
-
 #friends .btn:hover{background:var(--hover-color)!important;}
 
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected{background-color:var(--main-color);!important;color:#fff;}
@@ -2395,6 +2422,31 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 
 .channel-members .avatar-small .status-streaming, .private-channels .avatar-small .status-streaming, .account .avatar-small .status-streaming {
     border: 3px solid #643da7!Important;
+}
+
+.theme-dark .channel-members {
+    background-color: #19191b;
+}
+
+.container-3lnMWU {
+    background: #19191b;
+    border-bottom: 0px solid transparent;
+    box-shadow: none!Important;
+    position: relative;
+    z-index: 1;
+}
+
+.inner-ptMwR- .channel-3YGMy1 {
+    color: var(--main-color);
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-top: 4px;
+    opacity: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .status-streaming {
@@ -3959,14 +4011,14 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) ;}
     background: #19191b;
     font-size: 250%;
     width: 100%;
-    height: 70px;
+    height: 83px;
     bottom: 0px;
     position: absolute;
     line-height: 75px;
-    border-top: 2px solid #212121;
+    border-top: 1px solid var(--main-color);
     left: -14px;
     z-index: 1;
-    border-radius: 0px ;
+    border-radius: 0px;
     padding-right: 30px;
 }
 
@@ -4335,7 +4387,9 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) ;}
 
 .container-RYiLUQ{background-color: #19191b;}
 
-.contentSelectedText-3j5CXt, .contentSelectedVoice-gTtYM9{background-color: #121213;}
+.contentSelectedText-3j5CXt, .contentSelectedVoice-gTtYM9 {
+    background-color: rgba(0, 0, 0, 0.38)!important;
+}
 
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active, .userHovered-3tfm93:active{background-color: #151515 ;}
 
