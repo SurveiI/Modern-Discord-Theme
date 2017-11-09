@@ -75,8 +75,19 @@
 .bf-toolbar.bf-visible, .bf-toolbar.bf-hover:hover {
     pointer-events: initial;
     top: -27px!important;
-    left: 984px;
-    right: -36px!important;
+    left: 700px;
+    right: -33px!important;
+}
+
+.unread-23Kvxk {
+    background-color: hsla(0,0%,100%,.6);
+    border-radius: 0 6px 6px 0;
+    height: 19px;
+    left: 10px;
+    margin-top: -4px;
+    position: absolute;
+    top: 35%;
+    width: 4px;
 }
 
 .channel-members::after {
@@ -225,6 +236,11 @@ width: calc(100% - -56px)!important;
     bottom: -2px!important;
 }
 
+.embed .embed-video-actions .embed-video-actions-inner {
+    background: transparent;
+    padding: 12px 14px;
+}
+
 .aka-2Ba14Z {
     -ms-flex-negative: 0;
     background: var(--main-color);
@@ -240,6 +256,12 @@ width: calc(100% - -56px)!important;
     text-transform: uppercase;
     top: 2px;
     vertical-align: top;
+}
+
+/* Modern Discord Server */
+
+a.avatar-small[style*="375276069936168960"] {
+    background-image: url(https://i.imgur.com/o2yG4M0.gif)!important;
 }
 
 /* Bichasaurus */
@@ -2450,7 +2472,7 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 }
 
 .status-streaming {
-    background-color: none!Important;
+    background-color: rgba(89, 54, 149, 0)!important;
 }
 
 .gitbutton{font-size:14px;font-weight:600;color:#fff ;background-color:var(--main-color);!important;padding:8px 8px;border-radius:3px;position:absolute;bottom:0px;right:0px;text-align:center;}
@@ -4389,6 +4411,16 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) ;}
 
 .contentSelectedText-3j5CXt, .contentSelectedVoice-gTtYM9 {
     background-color: rgba(0, 0, 0, 0.38)!important;
+}
+
+.accountDetails-15i-_e .username {
+    display: block;
+    max-width: 84px;
+    overflow: hidden;
+    text-decoration: blink;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active, .userHovered-3tfm93:active{background-color: #151515 ;}
