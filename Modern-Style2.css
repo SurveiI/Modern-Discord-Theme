@@ -1,0 +1,53 @@
+/* Resources */
+
+@import url(https://fonts.googleapis.com/css?family=Satisfy)!important;
+:root {
+	--version-content: "1.0"!important;
+	--theme-name: "Modern"!important;
+	--theme-letter: "M"!important;
+}
+
+/* Top-bar */
+
+
+
+/* Header section */
+
+
+
+/* Left Server Scroller */
+
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://i.imgur.com/xjtGwGz.gif);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 53px 57px;
+    height: 50px;
+    width: 50px;
+}
+
+/* Direct Message Scroller */
+
+
+
+/* Server Channel-Text-Voice Scroller */
+
+
+
+/* Direct Message Section */
+
+
+
+/* Server Message Section */
+
+
+
+/* GUI MENUS */
+
+
+
+/* Mixed Fixes */
+
+
+
+/* People Modification Section */

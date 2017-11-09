@@ -178,7 +178,7 @@ width: calc(100% - -56px)!important;
 }
 
 .popout, .popouts {
-    position: relative;
+    position: absolute;
 }
 
 
