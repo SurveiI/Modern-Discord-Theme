@@ -325,7 +325,21 @@ width: calc(100% - -56px)!important;
 }
 
 .typing {
-    height: 15px!important;
+    background-color: hsla(0,0%,100%,.8);
+    bottom: -6px;
+    color: #737f8d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    height: 26px;
+    left: 15px;
+    line-height: 24px;
+    overflow-y: hidden;
+    position: absolute;
+    resize: none;
+    width: 100%;
 }
 
 .theme-dark .chat .empty-message {
@@ -439,9 +453,9 @@ width: calc(100% - -56px)!important;
 }
 
 .innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
-    margin: -18px 0px 6px 0px!important;
+    margin: -22px 0px 6px 0px!important;
     display: flex!important;
-    padding: 0px 66px 10px 0px!important;
+    padding: 0px 65px 0px 0px!important;
 }
 
 .textArea-20yzAH {
