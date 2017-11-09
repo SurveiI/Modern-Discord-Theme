@@ -117,16 +117,9 @@ width: calc(100% - -56px)!important;
     margin-bottom: 8px!important;
 }
 
-.app .guilds .guild:first-child {
-    top: -1px;
-    background: #131313!Important;
-}
-
 .guilds [class*="avatar-"] {
     border-radius: 50% !important;
 }
-
-
 
 .channelTextArea-os01xC {
     margin: 26px 0 3px!important;
@@ -1080,12 +1073,9 @@ button.guild.guilds-add {
 }
 .bd-blue .bd-pfbtn {
     background: #3a71c1!important;
-    left: 200px!Importa!important;
-    margin: 1px 0px 0px -7px!important;
-}
-button.bd-pfbtn.bd-updatebtn {
-    left: -46px!important;
-    margin: -4px 0px 0px 8px!important;
+    left: 242px!important;
+    margin: 0px 0px 0px 8px!important;
+    top: -44px;
 }
 .chat .divider.divider-red > span {
     color: #3188a9 !important;
@@ -4057,8 +4047,6 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) ;}
 .Modern{height: 70px;}
 
 .guilds-wrapper .dms{display: block;margin-top: 7px;margin-bottom: -4px;}
-
-.app .guilds .guild:first-child{border-bottom: 2px solid var(--main-color);!important;background: #19191b;top: 0px;padding-bottom: 1px;position: fixed;width: 79px;left: -3px;z-index: 2;}
 
 .guilds .guild:hover:first-child, .guilds-wrapper .guilds .guild:hover:first-of-type .guild-inner, .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner, .guilds .friends-icon:hover{background-color: #131313 ;}
 
