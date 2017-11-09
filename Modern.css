@@ -2391,7 +2391,15 @@ div.control-group .shortcut-recorder input[type=text]{border:2px solid var(--mai
 
 #bd-customcss-attach-controls,#bd-customcss-detach-controls{background:#121213;-webkit-box-shadow:inset 0 1px 0 0 #19191b;}
 
-.chat>.content .messages .message-group.hide-overflow.compact .markup{padding:0px 0px 0px 5rem;}
+.chat>.content .messages .message-group.hide-overflow.compact .markup{padding:0px 0px 0px 5rem;!important}
+
+.channel-members .avatar-small .status-streaming, .private-channels .avatar-small .status-streaming, .account .avatar-small .status-streaming {
+    border: 3px solid #643da7!Important;
+}
+
+.status-streaming {
+    background-color: none!Important;
+}
 
 .gitbutton{font-size:14px;font-weight:600;color:#fff ;background-color:var(--main-color);!important;padding:8px 8px;border-radius:3px;position:absolute;bottom:0px;right:0px;text-align:center;}
 
