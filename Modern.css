@@ -162,13 +162,13 @@ width: calc(100% - -56px)!important;
 
 .avatar-large .status, .avatar-profile .status, .avatar-small .status, .avatar-xlarge .status, .avatar-xsmall .status, .avatar-xxlarge .status {
     background-clip: padding-box;
-    border-radius: 50%;
-    bottom: -1px;
-    height: 40px;
+    border-radius: 50%!important;
+    bottom: 0px;
+    height: 37px;
     pointer-events: none;
     position: absolute;
-    right: -2px;
-    width: 40px;
+    right: 0px;
+    width: 37px;
 }
 
 .status-picker.popout-menu {
@@ -222,11 +222,11 @@ width: calc(100% - -56px)!important;
 }
 
 .avatar-small .status {
-    width: 99%!important;
+    width: 100%!important;
     height: 100%!important;
     border-width: 2px!important;
     right: -2px!important;
-    bottom: -2px!important;
+    bottom: -1px!important;
 }
 
 .embed .embed-video-actions .embed-video-actions-inner {
@@ -2717,7 +2717,7 @@ div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light + div .us
 
 .channel-members .avatar-small .status-dnd,.private-channels .avatar-small .status-dnd,.account .avatar-small .status-dnd{border:2px solid #f04747 ;}
 
-.channel-members .avatar-small .status-offline,.private-channels .avatar-small .status-offline,.account .avatar-small .status-offline{border:2px solid #282829 ;}
+.channel-members .avatar-small .status-offline,.private-channels .avatar-small .status-offline,.account .avatar-small .status-offline{border:2px solid #282829!important ;}
 
 .channel-members .avatar-small .status-invisible,.private-channels .avatar-small .status-invisible,.account .avatar-small .status-invisible{border:2px solid #747f8d ;}
 
@@ -3192,11 +3192,11 @@ button.bd-customicon-settings{display:none;}
 
 .friends-column.friends-column-status > .status-idle{background-color:#faa61a;border:0px solid transparent ;}
 
-.status-dnd{background-color:transparent;border:4px solid #f04747 ;}
+.status-dnd{background-color:transparent;border:2px solid #f04747!important ;}
 
 .friends-column.friends-column-status > .status-dnd{background-color:#f04747;border:0px solid transparent ;}
 
-.status-offline{background-color:transparent;border:4px solid #282829 ;}
+.status-offline{background-color:transparent;border:2px solid #282829!important ;}
 
 .friends-column.friends-column-status > .status-offline{background-color:#282829;border:0px solid transparent ;}
 
