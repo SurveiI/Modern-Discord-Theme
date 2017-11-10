@@ -1560,6 +1560,63 @@ text-shadow: 0px 1px 3px #000!important;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
 
+/* ChuChu's Gif AVATAR POOL*/
+
+.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif)!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 8px;
+    width: 20px;
+}
+
+.image-EVRGPw[style*="367961344193986570"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 175%;
+    background-image: url(https://i.imgur.com/7AOZXLL.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="367961344193986570"] {
+    border-radius: 5px;
+    background-image: url(https://i.imgur.com/7AOZXLL.gif)!important;
+}
+
+.message-group .avatar-large[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+.avatar-1BXaQj.popout-UKvsJt.avatarNormal-3luwna.avatar-1jmnc-[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+.avatar-xxlarge.stop-animation[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+.avatar-xxlarge[style*="367961344193986570"] {
+background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+.avatar-small.stop-animation[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+.avatar-small[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+.ui-call-avatar.voice[style*="367961344193986570"] {
+    background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
+}
+
+/* END */
 
 /* Ninji's Gif AVATAR POOL*/
 
