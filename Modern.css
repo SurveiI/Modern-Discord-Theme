@@ -1416,6 +1416,23 @@ text-shadow: 0px 1px 3px #000!important;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
 
+/* Elmo */
+.message-group:not(.compact) .avatar-large[style*="122496607483592706"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="122496607483592706"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Elmo's World"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: #008000!important;
+    margin-left: 6px!important;
+    font-size: 10px!important;
+    font-weight: 600!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
 /* NightWulf's stuff */
 
 .message-group:not(.compact) .avatar-large[style*="207524250075004928"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
@@ -1439,10 +1456,28 @@ text-shadow: 0px 1px 3px #000!important;
 /* Chiefs Stuff */
 
 .message-group:not(.compact) .avatar-large[style*="299832450996240385"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="299832450996240385"] ~ .member-inner .member-username .member-username-inner::after {
-    content: "Chiefity Chief Chied The Chiefiest"!important;
+    content: "Chiefity Chief Chief The Chiefiest"!important;
     color: #fff!important;
     border-radius: 3px!important;
     background: #2f7996!important;
+    margin-left: 6px!important;
+    font-size: 11px!important;
+    font-weight: 500!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
+/* Ninji Stuff */
+
+.message-group:not(.compact) .avatar-large[style*="237911522796503040"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="237911522796503040"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Stealthy Ninja"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: #5810fc!important;
     margin-left: 6px!important;
     font-size: 11px!important;
     font-weight: 500!important;
@@ -1459,10 +1494,10 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Kai */
 .message-group:not(.compact) .avatar-large[style*="98950566469734400"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="98950566469734400"] ~ .member-inner .member-username .member-username-inner::after {
-    content: "Wadu Hek"!important;
+    content: "Asian"!important;
     color: #fff!important;
     border-radius: 3px!important;
-    background: black!important;
+    background: #f442c2!important;
     margin-left: 6px!important;
     font-size: 10px!important;
     font-weight: 600!important;
@@ -1535,7 +1570,7 @@ text-shadow: 0px 1px 3px #000!important;
     background-clip: padding-box;
     background-color: none;
     background-position: center center;
-    background-size: 100%;
+    background-size: 175%;
     background-image: url(https://i.imgur.com/YY0Zt6q.gif)!important;
     border-radius: 50%;
 }
