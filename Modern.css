@@ -1561,7 +1561,52 @@ text-shadow: 0px 1px 3px #000!important;
 }
 
 
+/* Ninji's Gif AVATAR POOL*/
 
+.image-EVRGPw[style*="237911522796503040"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 175%;
+    background-image: url(https://i.imgur.com/2EnHXG3.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="237911522796503040"] {
+    border-radius: 5px;
+    background-image: url(https://i.imgur.com/2EnHXG3.gif)!important;
+}
+
+.message-group .avatar-large[style*="237911522796503040"] {
+    background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+.avatar-1BXaQj.popout-UKvsJt.avatarNormal-3luwna.avatar-1jmnc-[style*="237911522796503040"] {
+    background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+.avatar-xxlarge.stop-animation[style*="237911522796503040"] {
+    background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+.avatar-xxlarge[style*="237911522796503040"] {
+background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+.avatar-small.stop-animation[style*="237911522796503040"] {
+    background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+.avatar-small[style*="237911522796503040"] {
+    background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+.ui-call-avatar.voice[style*="237911522796503040"] {
+    background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
+}
+
+/* END */
 
 /* Chief's Gif AVATAR POOL*/
 
