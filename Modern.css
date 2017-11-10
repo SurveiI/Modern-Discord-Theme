@@ -512,11 +512,11 @@ a.avatar-small[style*="375276069936168960"] {
     color: white!Important;
     letter-spacing: -0.025rem!important;
     line-height: 1rem;
-    margin: 11px 4px 4px 23px!important;
-    max-height: 20px!important;
+    margin: 16px 4px 0px 0px!important;
+    max-height: 100px!important;
     min-height: 20px!important;
     height: 1px!Important;
-    padding: 0px 0px 18px 0px!Important;
+    padding: 0px 0px 20px 0px!Important;
     outline: none!important;
     width: 1274px!important;
 }
@@ -1262,6 +1262,8 @@ text-shadow: 0px 1px 3px #000!important;
 
 }
 
+/* Dimi & Myranda's Stuff */
+
 .message-group:not(.compact) .avatar-large[style*="134445168353869826"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
     content: "CUNT"!important;
     color: #fff!important;
@@ -1333,6 +1335,100 @@ text-shadow: 0px 1px 3px #000!important;
     -webkit-flex-shrink: 0!important;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
+
+/* Chiefs Stuff */
+
+.message-group:not(.compact) .avatar-large[style*="299832450996240385"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="299832450996240385"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Chiefity Chief Chied The Chiefiest"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: #2f7996!important;
+    margin-left: 6px!important;
+    font-size: 11px!important;
+    font-weight: 500!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
+
+/* WaduHek Clan */
+
+/* Kai */
+.message-group:not(.compact) .avatar-large[style*="98950566469734400"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="98950566469734400"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Wadu Hek"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: black!important;
+    margin-left: 6px!important;
+    font-size: 10px!important;
+    font-weight: 600!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
+/* Zander */
+.message-group:not(.compact) .avatar-large[style*="329562783618301952"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="329562783618301952"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Wadu Hek"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: black!important;
+    margin-left: 6px!important;
+    font-size: 10px!important;
+    font-weight: 600!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
+/* Mark */
+.message-group:not(.compact) .avatar-large[style*="329562783618301952"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="329562783618301952"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Wadu Hek"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: black!important;
+    margin-left: 6px!important;
+    font-size: 10px!important;
+    font-weight: 600!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
+/* Chuchu */
+.message-group:not(.compact) .avatar-large[style*="367961344193986570"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="367961344193986570"] ~ .member-inner .member-username .member-username-inner::after {
+    content: "Wadu Hek"!important;
+    color: #fff!important;
+    border-radius: 3px!important;
+    background: black!important;
+    margin-left: 6px!important;
+    font-size: 10px!important;
+    font-weight: 600!important;
+    vertical-align: bottom!important;
+    padding: 1px 4px!important;
+    line-height: 14px!important;
+    flex-shrink: 0!important;
+    -webkit-flex-shrink: 0!important;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
+}
+
+
+
+
+
 
 /* Dimitri's Gif AVATAR POOL*/
 
