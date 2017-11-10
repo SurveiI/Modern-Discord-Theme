@@ -9,6 +9,83 @@
 }
 
 
+/* Random Fixes */
+
+.theme-dark #friends {
+    background-color: #131313!important;
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    margin: 0px 0 14px -3px!Important;
+    background-color: #19191b!important;
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
+.invite-button.accepted {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: #131313!important;
+}
+
+#friends .friends-table .friends-table-body::after {
+    content: ""!important;
+    background: #19191b!important;
+    width: 1561px!important;
+    height: 83px!important;
+    bottom: 0px!important;
+    position: absolute!important;
+    border-top: 1px solid var(--main-color)!important;
+}
+
+#friends .friends-table .friends-row .friends-column-actions {
+    top: 43px!important;
+}
+
+#friends .friends-table .friends-row .friends-column-status .status {
+    width: 100%!important;
+    height: 15px!important;
+    border-radius: 5px 5px 0 0 !important;
+    position: absolute!important;
+    top: 0!important;
+    opacity: 0.5!important;
+    z-index: 0;
+}
+
+#friends .friends-table .friends-row {
+    background: rgba(0, 0, 0, 0.2)!important;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)!important;
+    border-radius: 5px;
+    margin: 15px!important;
+    padding: 0;
+    height: 120px!important;
+    height: 134px!Important;
+    flex-direction: column;
+    flex-basis: 300px;
+    position: relative;
+    transition: opacity 300ms!important;
+}
+
+.winButton-U7zAqI {
+    -webkit-app-region: no-drag!important;
+    cursor: pointer!important;
+    height: 22px!important;
+    visibility: visible!important;
+    opacity: .6!important;
+    pointer-events: auto!important;
+    position: relative!important;
+    top: 31px!important;
+    width: 28px!important;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
 
 
 /* Circle Avatar */
@@ -99,10 +176,22 @@
     background-color: #19191b!important;
 }
 
-.theme-dark .themed-popout .header {
-    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,20%);
-    background-color: #0f0f11!Important;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    margin: 0px 0 -13px -3px!Important;
+    background-color: #19191b!important;
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
+.theme-dark .channel-textarea-guard {
+    background-image: none!Important;
+}
+
+.theme-dark .channel-textarea-guard .countdown-number {
+    -webkit-box-shadow: none;
+    background: var(--main-color);
+    border-color: hsla(0,0%,100%,.04);
+    box-shadow: none;
 }
 
 .container-iksrDt {
@@ -359,7 +448,7 @@ a.avatar-small[style*="375276069936168960"] {
     display: flex;
     font-size: 13px;
     font-weight: 400;
-    height: 26px;
+    height: 15px;
     left: 15px;
     line-height: 24px;
     overflow-y: hidden;
@@ -512,13 +601,13 @@ a.avatar-small[style*="375276069936168960"] {
     color: white!Important;
     letter-spacing: -0.025rem!important;
     line-height: 1rem;
-    margin: 16px 4px 0px 0px!important;
+    margin: 16px 4px 0px -2px!important;
     max-height: 100px!important;
     min-height: 20px!important;
     height: 1px!Important;
     padding: 0px 0px 20px 0px!Important;
     outline: none!important;
-    width: 1274px!important;
+    width: 1430px!important;
 }
 
 .theme-dark .ui-standard-sidebar-view .content-region {
@@ -633,7 +722,7 @@ a.avatar-small[style*="375276069936168960"] {
 
 .guilds-wrapper {
     width: 76px!important;
-    height: 995px!important;
+    height: 1066px!important;
 }
 
 .message-group h2 .timestamp {
@@ -1428,9 +1517,69 @@ text-shadow: 0px 1px 3px #000!important;
 
 
 
+/* Chief's Gif AVATAR POOL*/
 
+.image-EVRGPw[style*="299832450996240385"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 100%;
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="299832450996240385"] {
+    border-radius: 5px;
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif)!important;
+}
+
+.message-group .avatar-large[style*="299832450996240385"] {
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+.avatar-1BXaQj.popout-UKvsJt.avatarNormal-3luwna.avatar-1jmnc-[style*="299832450996240385"] {
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+.avatar-xxlarge.stop-animation[style*="299832450996240385"] {
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+.avatar-xxlarge[style*="299832450996240385"] {
+background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+.avatar-small.stop-animation[style*="299832450996240385"] {
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+.avatar-small[style*="299832450996240385"] {
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+.ui-call-avatar.voice[style*="299832450996240385"] {
+    background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
+}
+
+/* END */
 
 /* Dimitri's Gif AVATAR POOL*/
+
+.image-EVRGPw[style*="134445168353869826"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 100%;
+    background-image: url(https://i.imgur.com/4ATqlI7.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="134445168353869826"] {
+    border-radius: 5px;
+    background-image: url(https://i.imgur.com/4ATqlI7.gif)!important;
+}
 
 .message-group .avatar-large[style*="134445168353869826"] {
     background-image: url(https://i.imgur.com/4ATqlI7.gif) !important;
@@ -4484,7 +4633,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) ;}
 
 .accountDetails-15i-_e .username {
     display: block;
-    max-width: 84px;
+    max-width: 125px;
     overflow: hidden;
     text-decoration: blink;
     font-weight: 600;
