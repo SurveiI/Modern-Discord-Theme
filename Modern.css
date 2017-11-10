@@ -33,7 +33,7 @@
 
 #friends .friends-table .friends-table-body::after {
     content: ""!important;
-    background: #19191b!important;
+    background: #131313!important;
     width: 1561px!important;
     height: 83px!important;
     bottom: 0px!important;
@@ -1162,7 +1162,7 @@ span.text {
     top: -44px;
 }
 .chat .divider.divider-red > span {
-    color: #3188a9 !important;
+    color: var(--main-color)!important;
     background-color: #111113 !important;
     border-radius: 3px!important;
     text-align: center!important;
