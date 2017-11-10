@@ -2974,8 +2974,6 @@ div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light + div .us
 
 .channel-members .avatar-small .status-streaming,.private-channels .avatar-small .status-streaming,.account .avatar-small .status-streaming{border:2px solid #643da7 ;}
 
-.status.status-typing.status-online{width:26px;right:-11px;height:8px ;background:#43b581 ;border:2px solid #19191b ;margin:22px 0px 0px 14px;transition:.3s all ease-in-out;}
-
 .status.status-typing.status-idle{width:26px;right:-11px;height:8px ;background:#faa61a ;border:2px solid #19191b ;margin:22px 0px 0px 14px;transition:.3s all ease-in-out;}
 
 .status.status-typing.status-dnd{width:26px;right:-11px;height:8px ;background:#f04747 ;border:2px solid #19191b ;margin:22px 0px 0px 14px;transition:.3s all linear;}
