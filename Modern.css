@@ -463,6 +463,11 @@ a.avatar-small[style*="324755720434352128"] {
     width: 100%;
 }
 
+.typing .text {
+    display: inline-block;
+    margin: -6px 0px 0px 9px!important;
+}
+
 .theme-dark .chat .empty-message {
     background: #19191b!Important;
     background-position: 0 100%,100% 100%;
