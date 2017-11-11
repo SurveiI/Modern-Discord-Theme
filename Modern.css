@@ -1560,6 +1560,64 @@ text-shadow: 0px 1px 3px #000!important;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
 
+/* Elmo's Gif AVATAR POOL*/
+
+.avatarDefault-3jtQoc[style*="122496607483592706"], .avatarSpeaking-3teDH6[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif)!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 8px;
+    width: 20px;
+}
+
+.image-EVRGPw[style*="122496607483592706"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 175%;
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="122496607483592706"] {
+    border-radius: 5px;
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif)!important;
+}
+
+.message-group .avatar-large[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+.avatar-1BXaQj.popout-UKvsJt.avatarNormal-3luwna.avatar-1jmnc-[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+.avatar-xxlarge.stop-animation[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+.avatar-xxlarge[style*="122496607483592706"] {
+background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+.avatar-small.stop-animation[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+.avatar-small[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+.ui-call-avatar.voice[style*="122496607483592706"] {
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
+}
+
+/* END */
+
 /* Digizoid's Gif AVATAR POOL*/
 
 .avatarDefault-3jtQoc[style*="278443589808291841"], .avatarSpeaking-3teDH6[style*="278443589808291841"] {
