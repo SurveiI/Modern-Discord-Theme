@@ -15,6 +15,26 @@
     background-color: #131313!important;
 }
 
+.invite-modal .invite-content {
+    height: 380px;
+    padding: 40px 26px 0 40px;
+    background: #131313;
+    position: relative;
+    text-align: center;
+}
+
+.invite-modal .scroller {
+    background: #131313;
+    background-size: 200px 204px;
+    height: 100%;
+    position: relative;
+    width: 400px;
+}
+
+.private-channels .channel.selected a, .private-channels .channel:hover a {
+    background-color: rgba(0, 0, 0, 0.38)!important;
+}
+
 .theme-dark .chat form {
     -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
     margin: 0px 0 14px -3px!Important;
@@ -1559,6 +1579,124 @@ text-shadow: 0px 1px 3px #000!important;
     -webkit-flex-shrink: 0!important;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
+
+/* END */
+
+/* Dora's Gif AVATAR POOL*/
+
+.avatarDefault-3jtQoc[style*="189349252902682633"], .avatarSpeaking-3teDH6[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif)!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 8px;
+    width: 20px;
+}
+
+.image-EVRGPw[style*="189349252902682633"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 175%;
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="189349252902682633"] {
+    border-radius: 5px;
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif)!important;
+}
+
+.message-group .avatar-large[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+.avatar-1BXaQj.popout-UKvsJt.avatarNormal-3luwna.avatar-1jmnc-[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+.avatar-xxlarge.stop-animation[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+.avatar-xxlarge[style*="189349252902682633"] {
+background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+.avatar-small.stop-animation[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+.avatar-small[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+.ui-call-avatar.voice[style*="189349252902682633"] {
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif) !important;
+}
+
+/* END */
+
+/* TimTam's Gif AVATAR POOL*/
+
+.avatarDefault-3jtQoc[style*="213857966720417794"], .avatarSpeaking-3teDH6[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif)!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    height: 20px;
+    margin-left: 8px;
+    width: 20px;
+}
+
+.image-EVRGPw[style*="213857966720417794"] {
+    size: 100%;
+    background-clip: padding-box;
+    background-color: none;
+    background-position: center center;
+    background-size: 175%;
+    background-image: url(https://i.imgur.com/45B3wgy.gif)!important;
+    border-radius: 50%;
+}
+
+.user-popout .avatar-wrapper .avatar-popout .status, .avatar-popout, #user-profile-modal .avatar-wrapper .avatar-profile[style*="213857966720417794"] {
+    border-radius: 5px;
+    background-image: url(https://i.imgur.com/45B3wgy.gif)!important;
+}
+
+.message-group .avatar-large[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+.avatar-1BXaQj.popout-UKvsJt.avatarNormal-3luwna.avatar-1jmnc-[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+.avatar-xxlarge.stop-animation[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+.avatar-xxlarge[style*="213857966720417794"] {
+background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+.avatar-small.stop-animation[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+.avatar-small[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+.ui-call-avatar.voice[style*="213857966720417794"] {
+    background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
+}
+
+/* END */
 
 /* Elmo's Gif AVATAR POOL*/
 
