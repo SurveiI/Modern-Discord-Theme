@@ -15,6 +15,60 @@
     background-color: #131313!important;
 }
 
+.status.status-typing {
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    right: -11px!important;
+    width: 26px!important;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    background-color: #0b0b0c;
+    border-color: rgba(28,36,43,.6);
+}
+
+.theme-dark .themed-popout .header {
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,20%);
+    background-color: #0b0b0c;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.bd-blue .tab-bar.TOP .tab-bar-item.selected {
+    border-bottom: 2px solid var(--main-color);
+    color: #ffffff;
+}
+
+.tab-bar.TOP .tab-bar-item {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: -1px;
+    padding-bottom: 5px;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name {
+    color: var(--main-color);
+}
+faa43a2….css:878
+.messages-popout .channel-separator .guild-name {
+    color: rgba(79,84,92,.3);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-left: 4px;
+}
+
+.messages-popout .message-group .avatar-large {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0px 20px 0px -15px;
+}
+
 .invite-modal .invite-content {
     height: 380px;
     padding: 40px 26px 0 40px;
