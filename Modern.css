@@ -420,10 +420,20 @@ a.avatar-small[style*="375276069936168960"] {
     background-image: url(https://i.imgur.com/o2yG4M0.gif)!important;
 }
 
+#user-profile-modal .guilds .guild .avatar-large:empty[style*="375276069936168960"] {
+    border-radius: 50px!important;
+    background-image: url(https://i.imgur.com/o2yG4M0.gif)!Important;
+}
+
 /* Chief Discord Server */
 
 a.avatar-small[style*="324755720434352128"] {
     background-image: url(https://78.media.tumblr.com/666127141de4f34a5713b01d428a58ae/tumblr_nqkgnusqid1rf78nfo1_400.gif)!important;
+}
+
+#user-profile-modal .guilds .guild .avatar-large:empty[style*="324755720434352128"] {
+    border-radius: 50px!important;
+    background-image: url(https://78.media.tumblr.com/666127141de4f34a5713b01d428a58ae/tumblr_nqkgnusqid1rf78nfo1_400.gif)!Important;
 }
 
 /* Bichasaurus */
@@ -1638,6 +1648,12 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Dora's Gif AVATAR POOL*/
 
+#user-profile-modal .guilds .guild .avatar-large[style*="189349252902682633"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+    background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif)!important;
+}
+
 .avatarDefault-3jtQoc[style*="189349252902682633"], .avatarSpeaking-3teDH6[style*="189349252902682633"] {
     background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf87543603/tumblr_nr5ep693A31r69x9to1_540.gif)!important;
     background-position: 50% 50%;
@@ -1695,6 +1711,12 @@ background-image: url(https://33.media.tumblr.com/d7e0a2579a4184cd83f354cf875436
 /* END */
 
 /* TimTam's Gif AVATAR POOL*/
+
+#user-profile-modal .guilds .guild .avatar-large[style*="213857966720417794"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+    background-image: url(https://i.imgur.com/45B3wgy.gif)!important;
+}
 
 .avatarDefault-3jtQoc[style*="213857966720417794"], .avatarSpeaking-3teDH6[style*="213857966720417794"] {
     background-image: url(https://i.imgur.com/45B3wgy.gif)!important;
@@ -1754,6 +1776,12 @@ background-image: url(https://i.imgur.com/45B3wgy.gif) !important;
 
 /* Elmo's Gif AVATAR POOL*/
 
+#user-profile-modal .guilds .guild .avatar-large[style*="122496607483592706"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+    background-image: url(https://i.imgur.com/M0fDxDJ.gif)!important;
+}
+
 .avatarDefault-3jtQoc[style*="122496607483592706"], .avatarSpeaking-3teDH6[style*="122496607483592706"] {
     background-image: url(https://i.imgur.com/M0fDxDJ.gif)!important;
     background-position: 50% 50%;
@@ -1811,6 +1839,12 @@ background-image: url(https://i.imgur.com/M0fDxDJ.gif) !important;
 /* END */
 
 /* Digizoid's Gif AVATAR POOL*/
+
+#user-profile-modal .guilds .guild .avatar-large[style*="278443589808291841"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+    background-image: url(https://i.imgur.com/RIvZJlr.gif)!important;
+}
 
 .avatarDefault-3jtQoc[style*="278443589808291841"], .avatarSpeaking-3teDH6[style*="278443589808291841"] {
     background-image: url(https://i.imgur.com/RIvZJlr.gif)!important;
@@ -1870,6 +1904,12 @@ background-image: url(https://i.imgur.com/RIvZJlr.gif) !important;
 
 /* ChuChu's Gif AVATAR POOL*/
 
+#user-profile-modal .guilds .guild .avatar-large[style*="367961344193986570"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+    background-image: url(https://i.imgur.com/7AOZXLL.gif)!important;
+}
+
 .avatarDefault-3jtQoc[style*="367961344193986570"], .avatarSpeaking-3teDH6[style*="367961344193986570"] {
     background-image: url(https://i.imgur.com/7AOZXLL.gif)!important;
     background-position: 50% 50%;
@@ -1927,6 +1967,12 @@ background-image: url(https://i.imgur.com/7AOZXLL.gif) !important;
 /* END */
 
 /* Ninji's Gif AVATAR POOL*/
+
+#user-profile-modal .guilds .guild .avatar-large[style*="237911522796503040"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+    background-image: url(https://i.imgur.com/2EnHXG3.gif)!important;
+}
 
 .avatarDefault-3jtQoc[style*="237911522796503040"], .avatarSpeaking-3teDH6[style*="237911522796503040"] {
     background-image: url(https://i.imgur.com/2EnHXG3.gif)!important;
@@ -1986,6 +2032,12 @@ background-image: url(https://i.imgur.com/2EnHXG3.gif) !important;
 
 /* Chief's Gif AVATAR POOL*/
 
+#user-profile-modal .guilds .guild .avatar-large[style*="299832450996240385"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+		background-image: url(https://i.imgur.com/YY0Zt6q.gif)!important;
+}
+
 .avatarDefault-3jtQoc[style*="299832450996240385"], .avatarSpeaking-3teDH6[style*="299832450996240385"] {
     background-image: url(https://i.imgur.com/YY0Zt6q.gif)!important;
     background-position: 50% 50%;
@@ -2043,6 +2095,12 @@ background-image: url(https://i.imgur.com/YY0Zt6q.gif) !important;
 /* END */
 
 /* Dimitri's Gif AVATAR POOL*/
+
+#user-profile-modal .guilds .guild .avatar-large[style*="134445168353869826"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!Important;
+	  background-image: url(https://i.imgur.com/4ATqlI7.gif)!important;
+}
 
 .avatarDefault-3jtQoc[style*="134445168353869826"], .avatarSpeaking-3teDH6[style*="134445168353869826"] {
 	  background-image: url(https://i.imgur.com/4ATqlI7.gif)!important;
