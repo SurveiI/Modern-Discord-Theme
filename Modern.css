@@ -2445,7 +2445,10 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 #user-profile-modal .guilds .guild{color:#c1c1c1;margin:0 10px;transition:background 300ms;}
 
-#user-profile-modal .guilds .guild .avatar-large{box-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);}
+#user-profile-modal .guilds .guild .avatar-large {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%!important;
+}
 
 #user-profile-modal .guilds .guild .avatar-large:empty{border-radius:15px;}
 
