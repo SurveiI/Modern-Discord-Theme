@@ -4474,6 +4474,17 @@ to{background:#19191b}
     border-color: var(--main-color);
 }
 
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    -webkit-box-shadow: 0 0 6px 4px #36393e;
+    background-color: rgba(11, 11, 12, 0);
+    box-shadow: 0 0 6px 4px rgba(54, 57, 62, 0);
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: var(--main-color)!important;
+    color: hsla(0,0%,100%,.6);
+}
+
 .premium-settings .premium-header.splash { border-bottom: 2px solid var(--main-color)!important;}
 
 .premium-settings .premium-header .premium-options button.btn-clear {background-color: var(--main-color);!important;color: rgba(255, 255, 255, 0.41);transition: .2s background-color linear;}
