@@ -4443,7 +4443,38 @@ to{background:#19191b}
 
 .premium-settings .premium-feature .premium-feature-description {color: #b3b3b3;}
 
-.premium-settings .premium-header.splash { border-bottom: 2px solid var(--main-color);!important;}
+.premium-settings .premium-header.splash {
+    background: no-repeat 100% 0;
+    border-bottom: 2px solid;
+    height: 250px;
+}
+
+.buttonGreenFilled-6QHNrw {
+    background-color: var(--main-color)!important;
+    color: #fff;
+}
+
+.premium-settings .premium-header .premium-options-button {
+    font-size: 14px;
+    font-weight: 500;
+    height: 32px;
+    line-height: 32px;
+    background: rgba(28, 30, 37, 0.68);
+    margin-right: 8px;
+    padding: 0 15px;
+}
+92a93bc….css:1
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx {
+    border-color: hsl(230, 11%, 11%);
+    color: #dcddde;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.premium-settings .premium-header.splash { border-bottom: 2px solid var(--main-color)!important;}
 
 .premium-settings .premium-header .premium-options button.btn-clear {background-color: var(--main-color);!important;color: rgba(255, 255, 255, 0.41);transition: .2s background-color linear;}
 
@@ -5730,7 +5761,7 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 
 .guild div.avatar-large{border-radius:0px ;}
 
-.theme-dark .checked-2TahvT{border-color: var(--main-color) ;}
+.theme-dark .checked-2TahvT{border-color: var(--main-color)!important ;}
 
 .message-group:not(.compact) .avatar-large[style*="211895683123249153"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="211895683123249153"] ~ .member-inner .member-username .member-username-inner::after{content:"Forge";color:#fff;background:#3e82e5;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
