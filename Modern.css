@@ -1448,7 +1448,7 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Dimi & Myranda's Stuff */
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="134445168353869826"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="134445168353869826"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
     content: "CUNT"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1465,7 +1465,7 @@ text-shadow: 0px 1px 3px #000!important;
     text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px!important;
 }
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="350732363095080960"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="350732363095080960"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="350732363095080960"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="350732363095080960"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Gorgeous Woman"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1483,7 +1483,7 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Zen's stuff */
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="187510439066730496"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="187510439066730496"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="187510439066730496"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="187510439066730496"] ~ .member-inner .member-username .member-username-inner::after {
     content: "The Ferocious Lobster"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1501,7 +1501,7 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Phoenix's stuff */
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="187510439066730496"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="187510439066730496"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="187510439066730496"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="187510439066730496"] ~ .member-inner .member-username .member-username-inner::after {
     content: "CUNT"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1519,7 +1519,7 @@ text-shadow: 0px 1px 3px #000!important;
 }
 
 /* Elmo */
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="122496607483592706"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="122496607483592706"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="122496607483592706"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="122496607483592706"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Elmo's World"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1537,7 +1537,7 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* NightWulf's stuff */
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="207524250075004928"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="207524250075004928"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style="134445168353869826"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Retard"!important;
     color: #8213E4!important;
     border-radius: 3px!important;
@@ -1557,7 +1557,7 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Chiefs Stuff */
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="299832450996240385"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="299832450996240385"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="299832450996240385"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="299832450996240385"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Chiefity Chief Chief The Chiefiest"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1575,7 +1575,7 @@ text-shadow: 0px 1px 3px #000!important;
 
 /* Ninji Stuff */
 
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="237911522796503040"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="237911522796503040"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="237911522796503040"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="237911522796503040"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Stealthy Ninja"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1595,7 +1595,7 @@ text-shadow: 0px 1px 3px #000!important;
 /* WaduHek Clan */
 
 /* Kai */
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="98950566469734400"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="98950566469734400"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="98950566469734400"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="98950566469734400"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Asian"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1612,7 +1612,7 @@ text-shadow: 0px 1px 3px #000!important;
 }
 
 /* Zander */
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="329562783618301952"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="329562783618301952"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="329562783618301952"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="329562783618301952"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Wadu Hek"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1629,7 +1629,7 @@ text-shadow: 0px 1px 3px #000!important;
 }
 
 /* Mark */
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="329562783618301952"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="329562783618301952"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="329562783618301952"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="329562783618301952"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Wadu Hek"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -1646,7 +1646,7 @@ text-shadow: 0px 1px 3px #000!important;
 }
 
 /* Chuchu */
-[class*="nameDefault-"] .message-group:not(.compact) .avatar-large[style*="367961344193986570"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="367961344193986570"] ~ .member-inner .member-username .member-username-inner::after {
+[class*="nameDefault-"][style*="187510439066730496"] ~ .message-group:not(.compact) .avatar-large[style*="367961344193986570"] ~ .comment .message h2 span.username-wrapper::after, .channel-members .member .avatar-small[style*="367961344193986570"] ~ .member-inner .member-username .member-username-inner::after {
     content: "Wadu Hek"!important;
     color: #fff!important;
     border-radius: 3px!important;
@@ -5303,7 +5303,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) ;}
 
 [class*="nameMutedText-"], [class*="nameMutedVoice-"]{color: #5a5a5a;}
 
-[class*="nameDefault-"]{color: #a5a5a5;}
+[class*="nameDefault-"][style*="187510439066730496"] ~{color: #a5a5a5;}
 
 .theme-dark [class*="modal-"] [class*="inner-"] [class*="modal-"]{background-color: #0f0f10;box-shadow: 0px 0px;}
 
