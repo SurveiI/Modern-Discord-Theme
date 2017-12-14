@@ -1,4 +1,6 @@
 /* Resources */
+@import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile.css)!important;
+@import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice.css)!important;
 @import url(https://fonts.googleapis.com/css?family=Satisfy)!important;
 :root {
 	--version-content: "3.8.1"!important;
