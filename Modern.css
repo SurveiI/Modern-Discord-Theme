@@ -15,6 +15,87 @@
     background-color: #131313!important;
 }
 
+.maskProfile-MeBve8 {
+-webkit-mask: {
+	url(none)!important;
+}
+
+code {
+    font-family: Menlo,Consolas,Monaco,monospace;
+    font-size: 14px!important;
+    line-height: 16px!important;
+}
+
+.mask-2vyqAW {
+	-webkit-mask: {
+		url(none)!important;
+mask: url(none)!important;
+}
+
+.tabBarContainer-3RVZc- {
+    border-top: none!important;
+    padding-left: 0px!important;
+}
+
+.tabBar-2z50ux {
+    -ms-flex-align: stretch;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex-3B1Tl4;
+    height: 30px;
+}
+
+.tab-bar.TOP {
+    border-bottom: 1px solid var(--hover-color)!important;
+    padding-left: 38px;
+    padding-top: 4px;
+}
+
+.tab-bar.TOP .tab-bar-item {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.theme-dark .body-3_tdh6 {
+    background-color: #2f3136;
+    flex: 0 0 400px!important;
+}
+
+.theme-dark .connectedAccount-3mKaTA {
+    border-color: #121213!important;
+}
+
+/* Invites */
+
+.theme-dark .wrapper-uAa07y {
+    background: rgba(18, 18, 19, 0.21);
+    border-color: rgb(6, 6, 6);
+}
+
+.button-NA7MEa {
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 32px;
+    margin-left: 10px;
+    min-width: 90px;
+}
+
+.buttonIcon-3jPc5f {
+    float: right;
+    color: white;
+    margin-left: 8px;
+}
+
+.theme-dark .h5-3KssQU {
+    color: var(--main-color);
+}
+
 .status.status-typing {
     -ms-flex-pack: center;
     -webkit-box-pack: center;
@@ -54,7 +135,7 @@
 .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name {
     color: var(--main-color);
 }
-faa43a2….css:878
+
 .messages-popout .channel-separator .guild-name {
     color: rgba(79,84,92,.3);
     font-size: 13px;
@@ -6310,8 +6391,6 @@ code{background-color: #19191b;background-image: linear-gradient(#121213 50%, tr
 #RANbutton-frame .guild-inner:hover{border-radius:15px ;background-color:var(--main-color) ;}
 
 #RANbutton{line-height:43px ;}
-
-.message-group:not(.compact) .avatar-large[style*="92738910362292224"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="92738910362292224"] ~ .member-inner .member-username .member-username-inner::after{content:"Capy Coder";color:#fff;background:#d88d56;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:14px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow:rgba(0, 0, 0, 0.4) 1px 1px 1px;}
 
 .theme-light .nameDefault-Lnjrwm, .theme-light .nameCollapsed-3_ChMu{color: #000 ;}
 
